@@ -52,10 +52,34 @@ Assigning Node and Edge Features to Graph
  - For variable length string contents, consider applying a language model
  - For images, consider applying a vision model such as CNNs
 
+### DGL Graph Constructions
+
+An example:
+```
+g = dgl.graph([0,0,0,0,0], [1,2,3,4,5], num_nodes=6) # 6 nodes, 5 edges
+g.ndata['x'] = torch.randn(6, 3) # 6 nodes, 3 features
+g.edata['a'] = torch.randn(5, 4) # 5 edges, 4 features
+g.ndata['y'] = torch.randn(6, 5, 4) # a 5x4 node feature matrix for each node
+```
+
+
 ### Querying Graph Structures
 
  - `g.num_nodes()`
  - `g.num_edges()`
  - `g.out_degrees(0)`: out degrees of the center node
  - `g.in_degrees(0)`: in degrees of the center node, for directed graph this will be 0
+
+### Graph Transformations
+
+ - `g.subgraph()`
+ - `g.edge_subgraph()`
+ - `dgl.add_reverse_edges()`
+
+*Note*: if you have an undirected graph, it is better to convert it into a bidirectional graph first via adding reverse edges.
+
+### Loading and Saving Graphs
+
+ - `dgl.save_graphs()`
+ - `dgl.load_graphs()`
 
