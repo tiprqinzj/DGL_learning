@@ -21,9 +21,12 @@ two machines: MacBook (my labtop) and HPC181 (company's)
 # For HPC181
 (dgl) $ conda install pytorch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 pytorch-cuda=11.6 -c pytorch -c nvidia
 (dgl) $ conda install -c dglteam/label/cu116 dgl
+(dgl) $ pip install packaging
 
 (dgl) $ conda install -c conda-forge rdkit rdkit
 ```
+
+*Note*: when execute `import dgl` in HPC181, an error occurred (No module named 'packaging'); `pip install packaging` deal with it.
 
 ## Tutorial 1: Node Classification with DGL
 
@@ -31,4 +34,5 @@ two machines: MacBook (my labtop) and HPC181 (company's)
  - create a folder named **tutorials** and cd to it
  - create a script named **node_classification_with_dgl.py**
 
+This example is a node classification problem as a semi-supervised node classification task. Only a small portion of labeled nodes, a graph neural network (GNN) can accurately predict the node category of the others.  
 
