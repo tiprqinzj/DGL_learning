@@ -87,12 +87,12 @@ if __name__ == '__main__':
     # Defining a Graph Convolutional Network (GCN)
     # a two-layer GCN, each layer computes new node representations by aggregating neighbor information
     # create the model with given dimensions
-    model = GCN(g.ndata['feat'].shape[1], 16, dataset.num_classes)
+    # model = GCN(g.ndata['feat'].shape[1], 16, dataset.num_classes)
 
     # Training the GCN
-    train(g, model)
+    # train(g, model)
 
     # Training on GPU, require to put both the model and the graph onto GPU
-    # g = g.to('cuda')
-    # model = GCN(g.ndata['feat'].shape[1], 16, dataset.num_classes).to('cuda')
-    # train(g, model)
+    g = g.to('cuda:0')
+    model = GCN(g.ndata['feat'].shape[1], 16, dataset.num_classes).to('cuda:0')
+    train(g, model)
