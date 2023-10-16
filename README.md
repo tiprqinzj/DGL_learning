@@ -17,6 +17,19 @@ two machines: MacBook (my labtop) and HPC181 (company's)
 # For MacBook
 (dgl) $ conda install pytorch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 -c pytorch
 (dgl) $ conda install -c dglteam dgl
+(dgl) $ conda install -c conda-forge rdkit rdkit
+(dgl) $ conda install ipykernel nb_conda
+(dgl) $ python -m ipykernel install --user --name dgl --display-name 'dgl'
+(base) $ conda update nbconvert
+(dgl) $ conda remove ipykernel nb_conda
+# this make the env dgl crash
+
+# For MacBook (2023.10.16)
+(base) $ conda create -n dgl2 python=3.9
+(dgl2) $ conda install jupyter notebook
+(dgl2) $ conda install pytorch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 -c pytorch
+(dgl2) $ conda install -c dglteam dgl
+(dgl2) $ conda install -c conda-forge rdkit rdkit
 
 # For HPC181
 (dgl) $ conda install pytorch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 pytorch-cuda=11.6 -c pytorch -c nvidia
@@ -25,6 +38,7 @@ two machines: MacBook (my labtop) and HPC181 (company's)
 
 (dgl) $ conda install -c conda-forge rdkit rdkit
 ```
+*Note*: when execute `jupyter notebook` in MacBook, an error occurred (500: Internal Server Error), main reason is that the version of jupyter in base and dgl is different; but still not solve the problem
 
 *Note*: when execute `import dgl` in HPC181, an error occurred (No module named 'packaging'); `pip install packaging` deal with it.
 
