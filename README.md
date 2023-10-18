@@ -97,3 +97,11 @@ g.ndata['y'] = torch.randn(6, 5, 4) # a 5x4 node feature matrix for each node
  - `dgl.save_graphs()`
  - `dgl.load_graphs()`
 
+
+
+## User Guide
+
+Working folder: **user_guide**  
+
+The *ipynb* notebook in this folder is unfinished. Only ch1 is useful.
+
