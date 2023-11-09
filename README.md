@@ -31,6 +31,11 @@ two machines: MacBook (my labtop) and HPC181 (company's)
 (dgl2) $ conda install -c conda-forge rdkit rdkit
 (dgl2) $ conda install -c conda-forge scikit-learn # in 2023.10.17
 
+# For MacBook (started in 2023.11.09), install dgl-lifesci
+(dgl2) $ conda create --name dgl3 --clone dgl2
+(dgl2) $ conda activate dgl3
+(dgl3) $ pip install dgllife
+
 # For HPC181
 (dgl) $ conda install pytorch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 pytorch-cuda=11.6 -c pytorch -c nvidia
 (dgl) $ conda install -c dglteam/label/cu116 dgl
@@ -104,4 +109,9 @@ g.ndata['y'] = torch.randn(6, 5, 4) # a 5x4 node feature matrix for each node
 Working folder: **user_guide**  
 
 The *ipynb* notebook in this folder is unfinished. Only ch1 is useful.
+
+# 学习 DGL-lifesci 教程
+
+- 工作文件夹：**dgl_lifesci_examples**
+- 笔记跳转至 [此处](dgl_lifesci_examples/README.md)
 
