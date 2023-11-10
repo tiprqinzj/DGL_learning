@@ -1,3 +1,4 @@
+.DS_Store
 dgl_lifesci_examples/property_prediction/__pycache__/*
 dgl_lifesci_examples/property_prediction/.ipynb_checkpoints/*
 dgl_lifesci_examples/property_prediction/*.bin
