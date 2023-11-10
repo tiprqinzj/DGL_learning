@@ -2,4 +2,4 @@
 dgl_lifesci_examples/property_prediction/__pycache__/*
 dgl_lifesci_examples/property_prediction/.ipynb_checkpoints/*
 dgl_lifesci_examples/property_prediction/*.bin
-dgl_lifesci_examples/property_prediction/classification_results/*
+# dgl_lifesci_examples/property_prediction/classification_results/*
