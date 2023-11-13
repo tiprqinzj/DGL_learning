@@ -218,7 +218,67 @@ stopper = EarlyStopping(patience=30, filename=args['result_path']+'/model.pth', 
 源码作者准备了三个函数，之后 Torch 神经网络训练可以采纳这种三函数策略：
 - `run_a_train_epoch(args, epoch, model, data_loader, loss_criterion, optimizer)`: no returns
 - `run_an_eval_epoch(args, model, data_loader)`: return metric
-- `predict(args, model, bg)`: return logits
+- `predict(args, model, bg)`: return logits, 在上述两个函数中调用
 
 在源码中，还有一个神奇的函数 `Meter()`，这是一个方便追踪模型效果的函数，但个人认为只有 AUC 值还是不够，后续正式模型中还是需要写自己的模型评价函数，在此处暂时先用该函数。
+
+`predict()` 函数示例：
+- 其中的`pop`方法，将特征数据从原`bg`中删除了，但由于bg是通过`dataloader`遍历来的，只用这一次，所以不影响其它数据
+- 本例中只有节点特征，若需要边的特征，则按需求增加即可
+- 返回的 logits 其实就是 score 值
+
+```
+def predict(model, bg, device):
+    bg = bg.to(device)
+    node_feats = bg.ndata.pop('h').to(device)
+    return model(bg, node_feats)
+```
+
+`run_a_train_epoch` 示例：
+- 需要在最开始写明是用于训练过程，即`model.train()`
+- 对数据进行解包，至少需要 `bg` 和 `labels`，将 `labels` 传递至计算设备（由于最开始 model 已经使用过 `.to()` 方法，`predict()` 函数中再将 bg 传递至计算设备）
+- 使用 `perdict()` 函数获取 logits 值
+- 计算 loss
+- 三句命令执行参数调整
+
+```
+def run_a_train_epoch(model, data_loader, loss_criterion, optimizer, device):
+    model.train()
+
+    for batch_id, batch_data in enumerate(data_loader):
+        smiles, bg, labels, masks = batch_data
+        labels, masks = labels.to(device), masks.to(device)
+        
+        logits = predict(model, bg, device)
+        loss = (loss_criterion(logits, labels) * (masks != 0).float()).mean()
+        # loss.item() to obtain loss value
+
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
+    
+    # print something
+```
+
+`run_an_eval_epoch()` 示例：
+- 需要在最前面写明为验证过程 `model.eval()`
+- 在无需追踪梯度计算的代码块中执行：`with torch.no_grad()`
+
+```
+def run_an_eval_epoch(model, data_loader, device):
+    model.eval()
+    with torch.no_grad():
+        for batch_data in enumerate(data_loader):
+        smiles, bg, labels, masks = batch_data
+        labels = labels.to(device)
+        logits = predict(model, bg, device)
+        # get loss
+        # print something
+    # return something 
+```
+
+### 后续需要学习的内容
+
+- 如何创建自己的 DataLoader
+- 将预测的 logits 转化为 score，并计算其它 metrics
 
