@@ -120,7 +120,7 @@ def collate_molgraphs(data):
     smiles, graphs, labels, masks = map(list, zip(*data))
 
     # batch graphs
-    bg = dgl.batch(graph)
+    bg = dgl.batch(graphs)
     bg.set_n_initializer(dgl.init.zero_initializer)
     bg.set_e_initializer(dgl.init.zero_initializer)
     labels = torch.stack(labels, dim=0)
@@ -281,4 +281,87 @@ def run_an_eval_epoch(model, data_loader, device):
 
 - 如何创建自己的 DataLoader
 - 将预测的 logits 转化为 score，并计算其它 metrics
+
+## 二、创建自己的数据集
+
+### 源码参考
+
+从以下脚本中找到相关内容学习：
+- examples/property_prediction/csv_data_configuration/classification_train.py
+  - `load_dataset()`
+- examples/property_prediction/csv_data_configuration/utils.py
+
+### 源码学习
+
+- 创建 `custom_dataset.ipynb` 拆解学习
+- 以 Caco-2 AB 的数据集 *curated1805_trtecv.csv* 作为案例，存于 **data/caco2ab_curated1805_trtecv.csv**
+
+### 学习笔记汇总：从 CSV 创建基于图的 dataset
+
+（一）导入需要的包
+
+```
+import pandas as pd
+import dgl
+import torch
+from torch.utils.data import DataLoader
+from dgllife.data import MoleculeCSVDataset
+from dgllife.utils import SMILESToBigraph
+from dgllife.utils import CanonicalAtomFeaturizer
+```
+
+（二）准备整理函数，与性质预测中相同
+
+- 需注意，`dgllife` 自带函数中就有 masks 这个参数，因此即使无空值也需要保留该参数
+
+```
+def collate_molgraphs(data):
+    # uppacked the dataset to list
+    smiles, graphs, labels, masks = map(list, zip(*data))
+
+    # batch graphs
+    bg = dgl.batch(graphs)
+    bg.set_n_initializer(dgl.init.zero_initializer)
+    bg.set_e_initializer(dgl.init.zero_initializer)
+    labels = torch.stack(labels, dim=0)
+
+    return smiles, bg, labels, masks
+```
+
+（三）从 `DataFrame` 载入数据库
+
+自定义 `load_dataset` 函数，详解 `MoleculeCSVDataset` 函数参数用法：
+- `smiles_column`: DataFrame 中，SMILES 所在列的列名
+- `cache_file_path`: str, 将 SMILES 编码为 DGLGraph 后所保存的图文件路径，多数以 `.bin` 结尾
+- `load`: bool, 默认为 False，是否载入本地 `cache_file_path` 文件并返回图变量，更改为 True 即可，因为观察源码后得知，只有当 `cache_file_path` 文件存在且 `load` 为 True 时，才会从本地文件载入
+- `task_names`: list of str, labels 所在列的列名，保存为列表
+
+```
+def load_dataset(df, smi_title, label_title, out_graph_path):
+    smiles_to_g = SMILESToBigraph(add_self_loop=True,
+                                  node_featurizer=CanonicalAtomFeaturizer(),
+                                  edge_featurizer=None)
+    dataset = MoleculeCSVDataset(df=df,
+                                 smiles_to_graph=smiles_to_g,
+                                 smiles_column=smi_title,
+                                 cache_file_path=out_graph_path,
+                                 task_names=[label_title],
+                                 load=True,
+                                 n_jobs=1)
+    return dataset
+
+df = pd.read_csv(CSV_PATH)
+dataset = load_dataset(df, SMI_TITLE, TARGET_TITLE, GRAPH_PATH)
+```
+
+（四）创建 DataLoader
+
+```
+data_loader = DataLoader(dataset, batch_size=8, shuffle=True, drop_last=True,
+                         collate_fn=collate_molgraphs, num_workers=0)
+
+for data in dataloader:
+    smiles, bg, labels, masks = data
+    # do something
+```
 
