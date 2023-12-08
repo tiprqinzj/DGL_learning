@@ -365,3 +365,25 @@ for data in dataloader:
     # do something
 ```
 
+## 三、DGMG 生成模型
+
+## Abstract of Source code and README
+
+DGMG: Deep Generative Models of Graphs
+
+**Goal**: Given a set of real molecules, we want to learn the distribution of them and get new molecules with similar properties.
+
+### i) Dataset
+
+With our implementation, this model has several limitations:
+- Information about protonation and chirality are ignored during generation.
+- Molecules consisting of `[N+]`, `[O-]`, etc. cannot be generated.
+
+**ChEMBL**: at most 20 heavy atoms, and used a training/validation split of 130,830/26,166 molecules. 
+
+**ZINC**: 232,464 for training and 5000 for validation.
+
+### ii) Usage
+
+Training auto-regressive generative models tends to be very slow. According to the authors, they use multiprocess to speed up training and GPU does not give much speed advantage.
+
