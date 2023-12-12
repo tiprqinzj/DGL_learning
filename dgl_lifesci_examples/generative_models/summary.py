@@ -20,8 +20,14 @@ def set_random_seed(seed):
 def cal_time(since):
     now = time.time()
     s = now - since
-
-    if s > 3600:
+    
+    if s > 86400:
+        d = math.floor(s / 86400)
+        h = math.floor((s - d * 86400) / 3600)
+        m = math.floor((s - d * 86400 - h * 3600) / 60)
+        s = s - d * 86400 - h * 3600 - m * 60
+        out = '{}d {}h {}m {:.0f}s'.format(d, h, m, s)
+    elif s > 3600:
         h = math.floor(s / 3600)
         m = math.floor((s - h * 3600) / 60)
         s = s - h * 3600 - m * 60
@@ -32,10 +38,12 @@ def cal_time(since):
         out = '{}m {:.0f}s'.format(m, s)
     return out
 
+
 def load_smiles_from_file(fname):
     with open(fname) as f:
         smiles = f.read().splitlines()
     return smiles
+
 
 def standardize_smi_to_mol(smi):
     # Load SMILES to Mol
@@ -262,7 +270,16 @@ def main(rank, args):
     tr_loader = list(tr_loader)
     val_loader = list(val_loader)
 
-    print('rank {}, train_loader {}, val_loader {}'.format(rank, len(tr_loader), len(val_loader)))
+    # create log file
+    if rank == 0:
+        with open(args['log_file'], 'w') as f:
+            pass
+    
+    if rank == 0:
+        print('rank {}, train_loader {}, val_loader {}'.format(rank, len(tr_loader), len(val_loader)))
+    if rank == (args['num_processes'] - 1):
+        print('rank {}, train_loader {}, val_loader {}'.format(rank, len(tr_loader), len(val_loader)))
+
 
     # initialize model
     model = DGMG(atom_types = dataset.atom_types,
@@ -277,57 +294,107 @@ def main(rank, args):
     optimizer = MultiProcessOptimizer(args['num_processes'], args['lr'],
                                       Adam(model.parameters(), lr=args['lr']))
     
+    best_val_loss = np.Infinity
+    if rank == 0:
+        print('Start training:')
+    t = time.time()
+
     # training
     for epoch in range(args['epochs']):
-        if rank == 0:
-            print('Start training:')
-        t = time.time()
 
         model.train()
 
         for step, data in enumerate(tr_loader):
             log_prob = model(actions=data, compute_log_prob=True)
-            prob = log_prob.detach().exp()
+            # prob = log_prob.detach().exp()
 
             loss_averaged = - log_prob
-            prob_averaged = prob
+            # prob_averaged = prob
 
             optimizer.backward_and_step(loss_averaged)
 
-            if (step + 1) % 100 == 0:
-                print('rank {}: epoch {}, step {} / {}, train loss {:.2f}, time {}'.format(
+            if (step + 1) % 1000 == 0:
+                if rank == 0:
+                    print('  process: epoch {}, step {} / {}, time {}'.format(epoch+1, step+1, len(tr_loader), cal_time(t)))
+                
+                with open(args['log_file'], 'a') as f:
+                    f.write('rank {}, epoch {}, step {} / {}, train loss {:.2f}, time {}\n'.format(
                     rank, epoch+1, step+1, len(tr_loader), loss_averaged.item(), cal_time(t)))
 
-                # val_loss = evaluate(model, val_loader)
-
-                # print('epoch {}, step {} / {}, train loss {:.2f}, val loss {:.2f}, time {}'.format(
-                #     epoch+1, step+1, len(tr_loader), loss_averaged.item(), val_loss.item(), cal_time(t)))
-            
-            # if (step + 1) % 1000 == 0:
-            #     torch.save({'model_state_dict': model.state_dict()},
-            #                 'checkpoint_epoch{}_step{}.pth'.format(epoch+1, step+1))
+        if rank == 0:
+            print('  process: epoch {}, step {} / {}, time {}, done.'.format(epoch+1, step+1, len(tr_loader), cal_time(t)))
+        
+        with open(args['log_file'], 'a') as f:
+            f.write('rank {}, epoch {}, step {} / {}, train loss {:.2f}, time {}, done.\n'.format(
+            rank, epoch+1, step+1, len(tr_loader), loss_averaged.item(), cal_time(t)))
         
         synchronize(args['num_processes'])
 
+        # Validation
+        val_log_prob = evaluate(model, val_loader)
+        if args['num_processes'] > 1:
+            dist.all_reduce(val_log_prob, op=dist.ReduceOp.SUM)
+        
+        val_log_prob /= args['num_processes']
+
+        # pick current best model
+        # val_prob = (- val_log_prob).exp().item()
+        val_log_prob = val_log_prob.item()
+
+        if rank == 0:
+            print('After training epoch {}, val loss {:.2f} (best {:.2f})'.format(epoch+1, val_log_prob, best_val_loss))
+            torch.save({'model_state_dict': model.state_dict()},
+                        '{}_epoch{}.pth'.format(args['save_prefix'], epoch+1))
+
+        if val_log_prob < best_val_loss:
+            best_val_loss = val_log_prob
+        
+        optimizer.decay_lr()
+
+        synchronize(args['num_processes'])
 
 
 
 if __name__ == '__main__':
 
-    args = {
-        'seed': 42,
-        'tr_file': 'ChEMBL_DGMG_train.txt',
-        'val_file': 'ChEMBL_DGMG_val.txt',
-        'types_file': 'ChEMBL_DGMG_atom_bond_types.pkl',
-        'node_hidden_size': 128,
-        'num_propagation_rounds': 2,
-        'dropout': 0.2,
-        'lr': 1e-4,
-        'epochs': 10,
-        'num_processes': 12,
-        'master_ip': '127.0.0.1',
-        'master_port': '12345',
-    }
+    import argparse
+
+    parser = argparse.ArgumentParser(description='Pre-training a DGMG model')
+
+    parser.add_argument('--tr_file', type=str, metavar='', help='training SMILES file')
+    parser.add_argument('--val_file', type=str, metavar='', help='validating SMILES file')
+    parser.add_argument('--types_file', type=str, metavar='', help='atom and bond types file (.pkl)')
+    parser.add_argument('--log_file', type=str, metavar='', default='training.log', help='training log file')
+    parser.add_argument('--seed', type=int, metavar='', default=42, help='random seed, default 42')
+    parser.add_argument('--node_hidden_size', type=int, metavar='', default=128, help='default 128')
+    parser.add_argument('--num_propagation_rounds', type=int, metavar='', default=2, help='default 2')
+    parser.add_argument('--dropout', type=float, metavar='', default=0.2, help='default 0.2')
+    parser.add_argument('--lr', type=float, metavar='', default=1e-4, help='default 1e-4')
+    parser.add_argument('--epochs', type=int, metavar='', default=100, help='default 100')
+    parser.add_argument('--num_processes', type=int, metavar='', default=96, help='default 96')
+    parser.add_argument('--master_ip', type=str, metavar='', default='127.0.0.1', help='default 127.0.0.1')
+    parser.add_argument('--master_port', type=str, metavar='', default='12345', help='default 12345')
+    parser.add_argument('--save_prefix', type=str, metavar='', default='checkpoint', help='default checkpoint')
+
+    # unpacked args
+    args = parser.parse_args().__dict__
+
+    # args = {
+    #     'seed': 42,
+    #     'tr_file': 'ChEMBL_DGMG_train.txt',
+    #     'val_file': 'ChEMBL_DGMG_val.txt',
+    #     'types_file': 'ChEMBL_DGMG_atom_bond_types.pkl',
+    #     'log_file': 'training.log',
+    #     'node_hidden_size': 128,
+    #     'num_propagation_rounds': 2,
+    #     'dropout': 0.2,
+    #     'lr': 1e-4,
+    #     'epochs': 50,
+    #     'num_processes': 96,
+    #     'master_ip': '127.0.0.1',
+    #     'master_port': '12345',
+    # }
+
 
     mp = torch.multiprocessing.get_context('spawn')
     procs = []

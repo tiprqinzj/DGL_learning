@@ -44,6 +44,7 @@ two machines: MacBook (my labtop) and HPC181 (company's)
 (dgl) $ conda install -c conda-forge rdkit rdkit
 (dgl) $ conda install -c conda-forge scikit-learn # in 2023.12.12
 (dgl) $ pip install dgllife # in 2023.12.12
+(dgl) $ pip install ipython # in 2023.12.12
 ```
 *Note*: when execute `jupyter notebook` in MacBook, an error occurred (500: Internal Server Error), main reason is that the version of jupyter in base and dgl is different; but after update, still not solve the problem
 
