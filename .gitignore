@@ -5,3 +5,4 @@ dgl_lifesci_examples/property_prediction/*.bin
 dgl_lifesci_examples/property_prediction/data/*
 
 dgl_lifesci_examples/generative_models/chembl/download_allcompds_1920643.tsv
+dgl_lifesci_examples/generative_models/.ipynb_checkpoints/*
