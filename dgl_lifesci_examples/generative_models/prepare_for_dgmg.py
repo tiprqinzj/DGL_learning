@@ -88,9 +88,27 @@ def main(tr_file, val_file, out_types):
     
 if __name__ == '__main__':
 
+    # main(
+    #     tr_file = 'ChEMBL_DGMG_train.txt',
+    #     val_file = 'ChEMBL_DGMG_val.txt',
+    #     out_types = 'ChEMBL_DGMG_atom_bond_types.pkl'
+    # )
+
+    import argparse
+
+    parser = argparse.ArgumentParser(description='Create atom and bond types based on training and validation files')
+
+    parser.add_argument('--tr_file', type=str, metavar='', help='training SMILES file')
+    parser.add_argument('--val_file', type=str, metavar='', help='validating SMILES file')
+    parser.add_argument('--out_types_file', type=str, metavar='', help='atom and bond types file (.pkl)')
+
+    # unpacked args
+    args = parser.parse_args().__dict__
+
+    # execute
     main(
-        tr_file = 'ChEMBL_DGMG_train.txt',
-        val_file = 'ChEMBL_DGMG_val.txt',
-        out_types = 'ChEMBL_DGMG_atom_bond_types.pkl'
+        tr_file = args['tr_file'],
+        val_file = args['val_file'],
+        out_types = args['out_types_file']
     )
 

@@ -98,9 +98,6 @@ def pipe_check_smi(s):
         while mol.HasSubstructMatch(reactant):
             mol = AllChem.ReplaceSubstructs(mol, reactant, product)[0]
     
-    # transfer to Flatten Kekulized SMILES
-    # smi = Chem.MolToSmiles(mol, isomericSmiles=False)
-    
     return (True, mol)
 
 
@@ -158,6 +155,11 @@ def main(download_file):
     with open('chembl_2023-12-12_valid.txt', 'w') as f:
         for s in val_smiles:
             f.write(s + '\n')
+    
+    with open('chembl_2023-12-12_unique.txt', 'w') as f:
+        for s in unique_smi:
+            f.write(s + '\n')
+
     
     print('Done')
 
