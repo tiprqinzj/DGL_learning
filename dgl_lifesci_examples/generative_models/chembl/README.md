@@ -33,7 +33,7 @@
 准备训练脚本 **train.py**，该脚本借鉴自上一级文件夹的 **summary.py**，不同的是该脚本中标准化分子这一步，仅 Kekulize 即可，且无需再提取原子和键的类型，提前固定好（即原子为 C, N, O, S, F, Cl, Br，键为单键、双键和三键）。
 
 ```
-(dgl) $ nohup python train.py --tr_file chembl_2023-12-12_dgmg_train.txt --val_file chembl_2023-12-12_dgmg_val.txt --log_file train.log --order canonical --save_prefix canonical > nohup_train_2023-12-14_1150am.log 2>&1 &
+(dgl) $ nohup python train.py --tr_file chembl_2023-12-12_dgmg_train.txt --val_file chembl_2023-12-12_dgmg_val.txt --log_file train.log --order canonical --save_prefix canonical > nohup_train_2023-12-14_1545pm.log 2>&1 &
 ```
 
 需注意，nohup 后，即使 kill 掉 train.py 的进程，并行依然在运算，因此需要 ps -ef | grep spawn | cut -c 9-16 后获取全部 PID，在 NotePad++ 中将回车替换为空格，再 kill -9 PASTE 来彻底清空后台的进程，才可以继续提交后续计算任务。

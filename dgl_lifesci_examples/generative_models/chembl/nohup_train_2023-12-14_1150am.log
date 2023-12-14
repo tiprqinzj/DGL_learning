@@ -1,1 +1,1119 @@
 nohup: ignoring input
+Process SpawnProcess-1:
+Process SpawnProcess-100:
+Process SpawnProcess-96:
+Process SpawnProcess-98:
+Process SpawnProcess-93:
+Process SpawnProcess-89:
+Process SpawnProcess-99:
+Process SpawnProcess-97:
+Process SpawnProcess-94:
+Process SpawnProcess-86:
+Process SpawnProcess-91:
+Process SpawnProcess-87:
+Process SpawnProcess-95:
+Process SpawnProcess-90:
+Process SpawnProcess-92:
+Process SpawnProcess-88:
+Process SpawnProcess-84:
+Process SpawnProcess-83:
+Process SpawnProcess-85:
+Process SpawnProcess-81:
+Process SpawnProcess-77:
+Process SpawnProcess-79:
+Process SpawnProcess-78:
+Process SpawnProcess-80:
+Process SpawnProcess-75:
+Traceback (most recent call last):
+Process SpawnProcess-82:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+Process SpawnProcess-76:
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+ValueError: I/O operation on closed file.
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+Traceback (most recent call last):
+Process SpawnProcess-74:
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+ValueError: I/O operation on closed file.
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+Process SpawnProcess-72:
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+ValueError: I/O operation on closed file.
+Process SpawnProcess-73:
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+ValueError: I/O operation on closed file.
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+ValueError: I/O operation on closed file.
+Process SpawnProcess-69:
+Process SpawnProcess-71:
+Traceback (most recent call last):
+Process SpawnProcess-68:
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+Traceback (most recent call last):
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+ValueError: I/O operation on closed file.
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+Process SpawnProcess-67:
+ValueError: I/O operation on closed file.
+Process SpawnProcess-66:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Process SpawnProcess-70:
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+Process SpawnProcess-64:
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+ValueError: I/O operation on closed file.
+ValueError: I/O operation on closed file.
+Process SpawnProcess-61:
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+Process SpawnProcess-63:
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+Process SpawnProcess-60:
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+Process SpawnProcess-65:
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Process SpawnProcess-58:
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+Process SpawnProcess-59:
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+Process SpawnProcess-62:
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+Process SpawnProcess-57:
+Process SpawnProcess-56:
+ValueError: I/O operation on closed file.
+Process SpawnProcess-55:
+Process SpawnProcess-54:
+Process SpawnProcess-53:
+Process SpawnProcess-52:
+Process SpawnProcess-51:
+Process SpawnProcess-50:
+Process SpawnProcess-48:
+Process SpawnProcess-47:
+Process SpawnProcess-49:
+Process SpawnProcess-46:
+Process SpawnProcess-45:
+Process SpawnProcess-44:
+Process SpawnProcess-43:
+Process SpawnProcess-42:
+Process SpawnProcess-41:
+Process SpawnProcess-39:
+Process SpawnProcess-38:
+Process SpawnProcess-37:
+Process SpawnProcess-40:
+Process SpawnProcess-35:
+Process SpawnProcess-36:
+Process SpawnProcess-34:
+Process SpawnProcess-33:
+Process SpawnProcess-32:
+Process SpawnProcess-31:
+Process SpawnProcess-30:
+Process SpawnProcess-29:
+Process SpawnProcess-28:
+Process SpawnProcess-27:
+Process SpawnProcess-26:
+Process SpawnProcess-25:
+Process SpawnProcess-24:
+Process SpawnProcess-23:
+Process SpawnProcess-21:
+Process SpawnProcess-20:
+Process SpawnProcess-22:
+Process SpawnProcess-19:
+Process SpawnProcess-18:
+Process SpawnProcess-17:
+Process SpawnProcess-15:
+Process SpawnProcess-16:
+Process SpawnProcess-14:
+Process SpawnProcess-13:
+Process SpawnProcess-12:
+Process SpawnProcess-11:
+Process SpawnProcess-10:
+Process SpawnProcess-9:
+Process SpawnProcess-8:
+Traceback (most recent call last):
+Process SpawnProcess-7:
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Process SpawnProcess-6:
+Process SpawnProcess-4:
+Process SpawnProcess-5:
+Process SpawnProcess-2:
+Process SpawnProcess-3:
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+ValueError: I/O operation on closed file.
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+Traceback (most recent call last):
+Traceback (most recent call last):
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+ValueError: I/O operation on closed file.
+Traceback (most recent call last):
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+Traceback (most recent call last):
+Traceback (most recent call last):
+ValueError: I/O operation on closed file.
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+ValueError: I/O operation on closed file.
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+ValueError: I/O operation on closed file.
+ValueError: I/O operation on closed file.
+ValueError: I/O operation on closed file.
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+ValueError: I/O operation on closed file.
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+ValueError: I/O operation on closed file.
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+ValueError: I/O operation on closed file.
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+ValueError: I/O operation on closed file.
+ValueError: I/O operation on closed file.
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+ValueError: I/O operation on closed file.
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+ValueError: I/O operation on closed file.
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+ValueError: I/O operation on closed file.
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+ValueError: I/O operation on closed file.
+ValueError: I/O operation on closed file.
+ValueError: I/O operation on closed file.
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+ValueError: I/O operation on closed file.
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+ValueError: I/O operation on closed file.
+ValueError: I/O operation on closed file.
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+ValueError: I/O operation on closed file.
+ValueError: I/O operation on closed file.
+ValueError: I/O operation on closed file.
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+ValueError: I/O operation on closed file.
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+  File "/home/cadd/workstation/miniconda3/envs/dgl/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 165, in launch_a_process
+    target(rank, args)
+ValueError: I/O operation on closed file.
+  File "/home/cadd/qinzijian/learning/DGL_learning/dgl_lifesci_examples/generative_models/chembl/train.py", line 284, in main
+    f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+ValueError: I/O operation on closed file.
+ValueError: I/O operation on closed file.
+ValueError: I/O operation on closed file.
+ValueError: I/O operation on closed file.
+ValueError: I/O operation on closed file.
+rank 0, train_loader 14304, val_loader 1000
+Start training:
+  process: epoch 1, step 1000 / 14304, time 15m 41s
+  process: epoch 1, step 2000 / 14304, time 31m 35s
+  process: epoch 1, step 3000 / 14304, time 46m 35s
+  process: epoch 1, step 4000 / 14304, time 1h 1m 37s
+  process: epoch 1, step 5000 / 14304, time 1h 16m 58s
+  process: epoch 1, step 6000 / 14304, time 1h 32m 8s
+  process: epoch 1, step 7000 / 14304, time 1h 47m 12s
+  process: epoch 1, step 8000 / 14304, time 2h 2m 13s
+  process: epoch 1, step 9000 / 14304, time 2h 17m 25s
+  process: epoch 1, step 10000 / 14304, time 2h 29m 26s
+  process: epoch 1, step 11000 / 14304, time 2h 37m 43s
+  process: epoch 1, step 12000 / 14304, time 2h 45m 33s
+  process: epoch 1, step 13000 / 14304, time 2h 53m 0s
+  process: epoch 1, step 14000 / 14304, time 2h 59m 60s
+  process: epoch 1, step 14304 / 14304, time 3h 2m 3s, done.
+rank 99, train_loader 14304, val_loader 1000

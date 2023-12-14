@@ -152,7 +152,7 @@ def synchronize(num_processes):
     if num_processes > 1:
         dist.barrier()
 
-def launch_a_process(rank, args, target, minutes=20160):
+def launch_a_process(rank, args, target, minutes=40320):
     dist_init_method = 'tcp://{master_ip}:{master_port}'.format(
         master_ip=args['master_ip'], master_port=args['master_port'])
     dist.init_process_group(backend='gloo',
@@ -280,8 +280,9 @@ def main(rank, args):
         val_log_prob = val_log_prob.item()
 
         # save validate loss
-        with open('{}/val_loss.dat'.format(args['save_prefix']), 'a'):
-            f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
+        if rank == 0:
+            with open('{}/val_loss.dat'.format(args['save_prefix']), 'a') as f:
+                f.write('{}\t{}\n'.format(epoch+1, val_log_prob))
 
         # pick current best model
         if val_log_prob < best_val_loss:
