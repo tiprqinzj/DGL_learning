@@ -1,0 +1,1162 @@
+rank 85, epoch 1, step 1000 / 14900, train loss 54.76, time 9m 27s
+rank 30, epoch 1, step 1000 / 14900, train loss 99.42, time 9m 31s
+rank 95, epoch 1, step 1000 / 14900, train loss 144.31, time 9m 37s
+rank 90, epoch 1, step 1000 / 14900, train loss 103.59, time 9m 42s
+rank 84, epoch 1, step 1000 / 14900, train loss 64.76, time 9m 43s
+rank 62, epoch 1, step 1000 / 14900, train loss 123.02, time 9m 47s
+rank 66, epoch 1, step 1000 / 14900, train loss 60.49, time 9m 49s
+rank 46, epoch 1, step 1000 / 14900, train loss 83.39, time 9m 50s
+rank 69, epoch 1, step 1000 / 14900, train loss 109.17, time 9m 50s
+rank 92, epoch 1, step 1000 / 14900, train loss 152.38, time 9m 48s
+rank 56, epoch 1, step 1000 / 14900, train loss 97.89, time 9m 51s
+rank 75, epoch 1, step 1000 / 14900, train loss 86.08, time 9m 52s
+rank 9, epoch 1, step 1000 / 14900, train loss 245.16, time 9m 52s
+rank 57, epoch 1, step 1000 / 14900, train loss 62.70, time 9m 52s
+rank 15, epoch 1, step 1000 / 14900, train loss 66.76, time 9m 52s
+rank 16, epoch 1, step 1000 / 14900, train loss 98.46, time 9m 53s
+rank 94, epoch 1, step 1000 / 14900, train loss 111.33, time 9m 50s
+rank 43, epoch 1, step 1000 / 14900, train loss 69.11, time 9m 54s
+rank 60, epoch 1, step 1000 / 14900, train loss 48.71, time 9m 54s
+rank 51, epoch 1, step 1000 / 14900, train loss 145.56, time 9m 56s
+rank 55, epoch 1, step 1000 / 14900, train loss 70.64, time 9m 56s
+rank 33, epoch 1, step 1000 / 14900, train loss 130.64, time 9m 57s
+rank 2, epoch 1, step 1000 / 14900, train loss 83.97, time 9m 57s
+rank 68, epoch 1, step 1000 / 14900, train loss 231.74, time 9m 57s
+rank 50, epoch 1, step 1000 / 14900, train loss 92.84, time 9m 58s
+rank 70, epoch 1, step 1000 / 14900, train loss 102.41, time 9m 56s
+rank 31, epoch 1, step 1000 / 14900, train loss 113.94, time 9m 57s
+rank 5, epoch 1, step 1000 / 14900, train loss 626.99, time 10m 0s
+rank 14, epoch 1, step 1000 / 14900, train loss 73.39, time 9m 60s
+rank 49, epoch 1, step 1000 / 14900, train loss 104.92, time 10m 3s
+rank 6, epoch 1, step 1000 / 14900, train loss 171.89, time 10m 3s
+rank 34, epoch 1, step 1000 / 14900, train loss 110.33, time 10m 3s
+rank 35, epoch 1, step 1000 / 14900, train loss 125.29, time 10m 5s
+rank 11, epoch 1, step 1000 / 14900, train loss 60.44, time 10m 1s
+rank 47, epoch 1, step 1000 / 14900, train loss 105.29, time 10m 7s
+rank 0, epoch 1, step 1000 / 14900, train loss 89.93, time 10m 6s
+rank 22, epoch 1, step 1000 / 14900, train loss 51.96, time 10m 8s
+rank 12, epoch 1, step 1000 / 14900, train loss 108.81, time 10m 10s
+rank 4, epoch 1, step 1000 / 14900, train loss 11434.31, time 10m 9s
+rank 76, epoch 1, step 1000 / 14900, train loss 62.89, time 10m 6s
+rank 38, epoch 1, step 1000 / 14900, train loss 251.66, time 10m 10s
+rank 48, epoch 1, step 1000 / 14900, train loss 106.31, time 10m 11s
+rank 21, epoch 1, step 1000 / 14900, train loss 96.52, time 10m 11s
+rank 53, epoch 1, step 1000 / 14900, train loss 270.31, time 10m 10s
+rank 93, epoch 1, step 1000 / 14900, train loss 146.03, time 10m 14s
+rank 59, epoch 1, step 1000 / 14900, train loss 104.26, time 10m 18s
+rank 79, epoch 1, step 1000 / 14900, train loss 48.42, time 10m 20s
+rank 64, epoch 1, step 1000 / 14900, train loss 71.60, time 10m 29s
+rank 54, epoch 1, step 1000 / 14900, train loss 128.01, time 15m 0s
+rank 78, epoch 1, step 1000 / 14900, train loss 283.49, time 14m 58s
+rank 67, epoch 1, step 1000 / 14900, train loss 100.03, time 14m 58s
+rank 74, epoch 1, step 1000 / 14900, train loss 194.28, time 15m 0s
+rank 81, epoch 1, step 1000 / 14900, train loss 104.16, time 15m 1s
+rank 41, epoch 1, step 1000 / 14900, train loss 120.08, time 15m 5s
+rank 73, epoch 1, step 1000 / 14900, train loss 51.32, time 15m 6s
+rank 77, epoch 1, step 1000 / 14900, train loss 355.36, time 15m 9s
+rank 86, epoch 1, step 1000 / 14900, train loss 262.66, time 15m 14s
+rank 8, epoch 1, step 1000 / 14900, train loss 120.30, time 15m 22s
+rank 28, epoch 1, step 1000 / 14900, train loss 127.10, time 15m 23s
+rank 63, epoch 1, step 1000 / 14900, train loss 77.08, time 15m 27s
+rank 71, epoch 1, step 1000 / 14900, train loss 94.02, time 15m 27s
+rank 19, epoch 1, step 1000 / 14900, train loss 98.61, time 15m 29s
+rank 37, epoch 1, step 1000 / 14900, train loss 81.83, time 15m 30s
+rank 10, epoch 1, step 1000 / 14900, train loss 77.64, time 15m 30s
+rank 40, epoch 1, step 1000 / 14900, train loss 131.82, time 15m 32s
+rank 91, epoch 1, step 1000 / 14900, train loss 103.77, time 15m 33s
+rank 58, epoch 1, step 1000 / 14900, train loss 473.70, time 15m 34s
+rank 17, epoch 1, step 1000 / 14900, train loss 261.54, time 15m 33s
+rank 18, epoch 1, step 1000 / 14900, train loss 134.41, time 15m 38s
+rank 24, epoch 1, step 1000 / 14900, train loss 136.51, time 15m 34s
+rank 44, epoch 1, step 1000 / 14900, train loss 83.33, time 15m 36s
+rank 45, epoch 1, step 1000 / 14900, train loss 99.17, time 15m 39s
+rank 20, epoch 1, step 1000 / 14900, train loss 52.75, time 15m 41s
+rank 32, epoch 1, step 1000 / 14900, train loss 114.27, time 15m 44s
+rank 1, epoch 1, step 1000 / 14900, train loss 121.10, time 15m 43s
+rank 88, epoch 1, step 1000 / 14900, train loss 77.57, time 15m 47s
+rank 87, epoch 1, step 1000 / 14900, train loss 178.60, time 15m 49s
+rank 25, epoch 1, step 1000 / 14900, train loss 95.58, time 15m 46s
+rank 23, epoch 1, step 1000 / 14900, train loss 73.98, time 15m 47s
+rank 52, epoch 1, step 1000 / 14900, train loss 156.19, time 15m 49s
+rank 27, epoch 1, step 1000 / 14900, train loss 99.36, time 15m 54s
+rank 82, epoch 1, step 1000 / 14900, train loss 110.13, time 15m 50s
+rank 26, epoch 1, step 1000 / 14900, train loss 119.29, time 15m 52s
+rank 36, epoch 1, step 1000 / 14900, train loss 203.87, time 15m 56s
+rank 29, epoch 1, step 1000 / 14900, train loss 139.79, time 15m 59s
+rank 80, epoch 1, step 1000 / 14900, train loss 60.08, time 15m 58s
+rank 39, epoch 1, step 1000 / 14900, train loss 139.95, time 15m 59s
+rank 13, epoch 1, step 1000 / 14900, train loss 88.16, time 16m 2s
+rank 61, epoch 1, step 1000 / 14900, train loss 215.67, time 16m 0s
+rank 42, epoch 1, step 1000 / 14900, train loss 860.07, time 16m 21s
+rank 89, epoch 1, step 1000 / 14900, train loss 83.22, time 16m 49s
+rank 7, epoch 1, step 1000 / 14900, train loss 66.91, time 17m 1s
+rank 65, epoch 1, step 1000 / 14900, train loss 97.13, time 17m 13s
+rank 72, epoch 1, step 1000 / 14900, train loss 164.90, time 17m 14s
+rank 83, epoch 1, step 1000 / 14900, train loss 185.80, time 17m 24s
+rank 3, epoch 1, step 1000 / 14900, train loss 62.18, time 17m 26s
+rank 30, epoch 1, step 2000 / 14900, train loss 62.05, time 18m 50s
+rank 85, epoch 1, step 2000 / 14900, train loss 105.73, time 19m 0s
+rank 95, epoch 1, step 2000 / 14900, train loss 41.60, time 19m 13s
+rank 46, epoch 1, step 2000 / 14900, train loss 103.76, time 19m 30s
+rank 56, epoch 1, step 2000 / 14900, train loss 68.34, time 19m 36s
+rank 84, epoch 1, step 2000 / 14900, train loss 79.15, time 19m 38s
+rank 62, epoch 1, step 2000 / 14900, train loss 89.39, time 19m 38s
+rank 9, epoch 1, step 2000 / 14900, train loss 160.98, time 19m 41s
+rank 2, epoch 1, step 2000 / 14900, train loss 62.58, time 19m 43s
+rank 15, epoch 1, step 2000 / 14900, train loss 70.54, time 19m 43s
+rank 90, epoch 1, step 2000 / 14900, train loss 76.93, time 19m 45s
+rank 92, epoch 1, step 2000 / 14900, train loss 132.81, time 19m 43s
+rank 51, epoch 1, step 2000 / 14900, train loss 81.67, time 19m 45s
+rank 69, epoch 1, step 2000 / 14900, train loss 71.64, time 19m 46s
+rank 33, epoch 1, step 2000 / 14900, train loss 116.02, time 19m 47s
+rank 6, epoch 1, step 2000 / 14900, train loss 83.17, time 19m 48s
+rank 60, epoch 1, step 2000 / 14900, train loss 143.65, time 19m 47s
+rank 49, epoch 1, step 2000 / 14900, train loss 91.82, time 19m 52s
+rank 55, epoch 1, step 2000 / 14900, train loss 86.87, time 19m 51s
+rank 16, epoch 1, step 2000 / 14900, train loss 83.41, time 19m 51s
+rank 66, epoch 1, step 2000 / 14900, train loss 81.60, time 19m 53s
+rank 14, epoch 1, step 2000 / 14900, train loss 95.76, time 19m 53s
+rank 43, epoch 1, step 2000 / 14900, train loss 117.17, time 19m 54s
+rank 75, epoch 1, step 2000 / 14900, train loss 128.86, time 19m 56s
+rank 34, epoch 1, step 2000 / 14900, train loss 86.00, time 19m 54s
+rank 68, epoch 1, step 2000 / 14900, train loss 173.89, time 19m 56s
+rank 94, epoch 1, step 2000 / 14900, train loss 72.45, time 19m 52s
+rank 57, epoch 1, step 2000 / 14900, train loss 75.86, time 19m 58s
+rank 11, epoch 1, step 2000 / 14900, train loss 138.83, time 19m 54s
+rank 5, epoch 1, step 2000 / 14900, train loss 117.64, time 19m 59s
+rank 31, epoch 1, step 2000 / 14900, train loss 98.43, time 20m 1s
+rank 50, epoch 1, step 2000 / 14900, train loss 56.92, time 20m 3s
+rank 70, epoch 1, step 2000 / 14900, train loss 115.43, time 20m 4s
+rank 21, epoch 1, step 2000 / 14900, train loss 68.83, time 20m 8s
+rank 53, epoch 1, step 2000 / 14900, train loss 231.40, time 20m 7s
+rank 76, epoch 1, step 2000 / 14900, train loss 62.73, time 20m 7s
+rank 47, epoch 1, step 2000 / 14900, train loss 89.45, time 20m 14s
+rank 0, epoch 1, step 2000 / 14900, train loss 77.97, time 20m 11s
+rank 35, epoch 1, step 2000 / 14900, train loss 65.24, time 20m 13s
+rank 22, epoch 1, step 2000 / 14900, train loss 72.33, time 20m 14s
+rank 38, epoch 1, step 2000 / 14900, train loss 127.21, time 20m 15s
+rank 48, epoch 1, step 2000 / 14900, train loss 73.06, time 20m 20s
+rank 12, epoch 1, step 2000 / 14900, train loss 256.30, time 20m 22s
+rank 59, epoch 1, step 2000 / 14900, train loss 79.63, time 20m 25s
+rank 93, epoch 1, step 2000 / 14900, train loss 108.18, time 20m 26s
+rank 79, epoch 1, step 2000 / 14900, train loss 66.86, time 20m 29s
+rank 4, epoch 1, step 2000 / 14900, train loss 589.77, time 20m 35s
+rank 64, epoch 1, step 2000 / 14900, train loss 133.87, time 20m 52s
+rank 30, epoch 1, step 3000 / 14900, train loss 81.31, time 28m 28s
+rank 85, epoch 1, step 3000 / 14900, train loss 50.88, time 28m 30s
+rank 95, epoch 1, step 3000 / 14900, train loss 123.09, time 28m 52s
+rank 46, epoch 1, step 3000 / 14900, train loss 106.12, time 29m 17s
+rank 69, epoch 1, step 3000 / 14900, train loss 76.52, time 29m 24s
+rank 56, epoch 1, step 3000 / 14900, train loss 99.82, time 29m 27s
+rank 92, epoch 1, step 3000 / 14900, train loss 64.79, time 29m 26s
+rank 62, epoch 1, step 3000 / 14900, train loss 72.34, time 29m 29s
+rank 2, epoch 1, step 3000 / 14900, train loss 67.23, time 29m 32s
+rank 9, epoch 1, step 3000 / 14900, train loss 118.79, time 29m 32s
+rank 6, epoch 1, step 3000 / 14900, train loss 83.12, time 29m 35s
+rank 84, epoch 1, step 3000 / 14900, train loss 84.61, time 29m 36s
+rank 49, epoch 1, step 3000 / 14900, train loss 80.36, time 29m 38s
+rank 60, epoch 1, step 3000 / 14900, train loss 106.56, time 29m 37s
+rank 14, epoch 1, step 3000 / 14900, train loss 69.73, time 29m 38s
+rank 43, epoch 1, step 3000 / 14900, train loss 78.11, time 29m 42s
+rank 55, epoch 1, step 3000 / 14900, train loss 165.35, time 29m 42s
+rank 33, epoch 1, step 3000 / 14900, train loss 70.60, time 29m 44s
+rank 15, epoch 1, step 3000 / 14900, train loss 58.08, time 29m 44s
+rank 90, epoch 1, step 3000 / 14900, train loss 77.34, time 29m 46s
+rank 16, epoch 1, step 3000 / 14900, train loss 61.73, time 29m 46s
+rank 34, epoch 1, step 3000 / 14900, train loss 86.62, time 29m 46s
+rank 51, epoch 1, step 3000 / 14900, train loss 93.54, time 29m 48s
+rank 75, epoch 1, step 3000 / 14900, train loss 84.29, time 29m 49s
+rank 66, epoch 1, step 3000 / 14900, train loss 135.69, time 29m 50s
+rank 94, epoch 1, step 3000 / 14900, train loss 44.85, time 29m 47s
+rank 11, epoch 1, step 3000 / 14900, train loss 120.07, time 29m 48s
+rank 21, epoch 1, step 3000 / 14900, train loss 92.96, time 29m 56s
+rank 68, epoch 1, step 3000 / 14900, train loss 349.56, time 29m 57s
+rank 53, epoch 1, step 3000 / 14900, train loss 170.29, time 29m 56s
+rank 57, epoch 1, step 3000 / 14900, train loss 87.02, time 29m 60s
+rank 54, epoch 1, step 2000 / 14900, train loss 108.60, time 30m 2s
+rank 67, epoch 1, step 2000 / 14900, train loss 82.57, time 29m 60s
+rank 50, epoch 1, step 3000 / 14900, train loss 82.10, time 30m 5s
+rank 78, epoch 1, step 2000 / 14900, train loss 124.03, time 30m 2s
+rank 74, epoch 1, step 2000 / 14900, train loss 86.90, time 30m 4s
+rank 76, epoch 1, step 3000 / 14900, train loss 52.39, time 30m 3s
+rank 0, epoch 1, step 3000 / 14900, train loss 65.04, time 30m 9s
+rank 31, epoch 1, step 3000 / 14900, train loss 101.15, time 30m 10s
+rank 38, epoch 1, step 3000 / 14900, train loss 122.93, time 30m 12s
+rank 86, epoch 1, step 2000 / 14900, train loss 100.01, time 30m 9s
+rank 5, epoch 1, step 3000 / 14900, train loss 163.56, time 30m 13s
+rank 70, epoch 1, step 3000 / 14900, train loss 55.99, time 30m 12s
+rank 81, epoch 1, step 2000 / 14900, train loss 113.62, time 30m 11s
+rank 22, epoch 1, step 3000 / 14900, train loss 98.01, time 30m 15s
+rank 47, epoch 1, step 3000 / 14900, train loss 84.31, time 30m 17s
+rank 41, epoch 1, step 2000 / 14900, train loss 92.24, time 30m 17s
+rank 73, epoch 1, step 2000 / 14900, train loss 70.30, time 30m 16s
+rank 35, epoch 1, step 3000 / 14900, train loss 75.77, time 30m 21s
+rank 12, epoch 1, step 3000 / 14900, train loss 334.48, time 30m 23s
+rank 28, epoch 1, step 2000 / 14900, train loss 59.88, time 30m 30s
+rank 77, epoch 1, step 2000 / 14900, train loss 102.34, time 30m 32s
+rank 59, epoch 1, step 3000 / 14900, train loss 63.65, time 30m 36s
+rank 48, epoch 1, step 3000 / 14900, train loss 51.88, time 30m 37s
+rank 93, epoch 1, step 3000 / 14900, train loss 85.44, time 30m 39s
+rank 79, epoch 1, step 3000 / 14900, train loss 64.65, time 30m 43s
+rank 4, epoch 1, step 3000 / 14900, train loss 251.38, time 30m 47s
+rank 71, epoch 1, step 2000 / 14900, train loss 135.41, time 30m 47s
+rank 10, epoch 1, step 2000 / 14900, train loss 58.68, time 30m 53s
+rank 24, epoch 1, step 2000 / 14900, train loss 63.97, time 30m 52s
+rank 63, epoch 1, step 2000 / 14900, train loss 47.63, time 30m 57s
+rank 91, epoch 1, step 2000 / 14900, train loss 61.65, time 30m 58s
+rank 44, epoch 1, step 2000 / 14900, train loss 94.83, time 30m 59s
+rank 37, epoch 1, step 2000 / 14900, train loss 84.65, time 31m 2s
+rank 19, epoch 1, step 2000 / 14900, train loss 132.96, time 31m 6s
+rank 40, epoch 1, step 2000 / 14900, train loss 161.48, time 31m 8s
+rank 17, epoch 1, step 2000 / 14900, train loss 92.57, time 31m 10s
+rank 20, epoch 1, step 2000 / 14900, train loss 129.24, time 31m 13s
+rank 58, epoch 1, step 2000 / 14900, train loss 454.35, time 31m 16s
+rank 1, epoch 1, step 2000 / 14900, train loss 87.99, time 31m 17s
+rank 45, epoch 1, step 2000 / 14900, train loss 94.01, time 31m 19s
+rank 32, epoch 1, step 2000 / 14900, train loss 122.59, time 31m 23s
+rank 64, epoch 1, step 3000 / 14900, train loss 95.10, time 31m 25s
+rank 8, epoch 1, step 2000 / 14900, train loss 8638.58, time 31m 23s
+rank 25, epoch 1, step 2000 / 14900, train loss 57.96, time 31m 25s
+rank 26, epoch 1, step 2000 / 14900, train loss 94.71, time 31m 25s
+rank 23, epoch 1, step 2000 / 14900, train loss 354.63, time 31m 26s
+rank 27, epoch 1, step 2000 / 14900, train loss 85.23, time 31m 34s
+rank 52, epoch 1, step 2000 / 14900, train loss 107.37, time 31m 33s
+rank 18, epoch 1, step 2000 / 14900, train loss 45.27, time 31m 37s
+rank 13, epoch 1, step 2000 / 14900, train loss 65.10, time 31m 39s
+rank 88, epoch 1, step 2000 / 14900, train loss 82.54, time 31m 40s
+rank 87, epoch 1, step 2000 / 14900, train loss 144.36, time 31m 41s
+rank 82, epoch 1, step 2000 / 14900, train loss 63.53, time 31m 39s
+rank 36, epoch 1, step 2000 / 14900, train loss 77.56, time 31m 40s
+rank 29, epoch 1, step 2000 / 14900, train loss 94.79, time 31m 52s
+rank 61, epoch 1, step 2000 / 14900, train loss 89.72, time 31m 50s
+rank 80, epoch 1, step 2000 / 14900, train loss 78.92, time 31m 52s
+rank 39, epoch 1, step 2000 / 14900, train loss 122.92, time 31m 55s
+rank 42, epoch 1, step 2000 / 14900, train loss 249.63, time 32m 17s
+rank 89, epoch 1, step 2000 / 14900, train loss 82.11, time 33m 48s
+rank 7, epoch 1, step 2000 / 14900, train loss 84.58, time 34m 17s
+rank 65, epoch 1, step 2000 / 14900, train loss 84.67, time 34m 32s
+rank 72, epoch 1, step 2000 / 14900, train loss 143.88, time 34m 51s
+rank 83, epoch 1, step 2000 / 14900, train loss 98.47, time 34m 54s
+rank 3, epoch 1, step 2000 / 14900, train loss 104.85, time 34m 55s
+rank 30, epoch 1, step 4000 / 14900, train loss 92.86, time 38m 4s
+rank 85, epoch 1, step 4000 / 14900, train loss 116.86, time 38m 11s
+rank 95, epoch 1, step 4000 / 14900, train loss 64.21, time 38m 32s
+rank 46, epoch 1, step 4000 / 14900, train loss 137.20, time 39m 1s
+rank 92, epoch 1, step 4000 / 14900, train loss 107.47, time 39m 15s
+rank 56, epoch 1, step 4000 / 14900, train loss 75.44, time 39m 20s
+rank 69, epoch 1, step 4000 / 14900, train loss 72.97, time 39m 20s
+rank 62, epoch 1, step 4000 / 14900, train loss 82.32, time 39m 25s
+rank 49, epoch 1, step 4000 / 14900, train loss 83.32, time 39m 28s
+rank 9, epoch 1, step 4000 / 14900, train loss 69.14, time 39m 27s
+rank 6, epoch 1, step 4000 / 14900, train loss 139.49, time 39m 28s
+rank 2, epoch 1, step 4000 / 14900, train loss 75.07, time 39m 28s
+rank 43, epoch 1, step 4000 / 14900, train loss 96.12, time 39m 31s
+rank 75, epoch 1, step 4000 / 14900, train loss 47.17, time 39m 32s
+rank 16, epoch 1, step 4000 / 14900, train loss 67.63, time 39m 33s
+rank 60, epoch 1, step 4000 / 14900, train loss 88.49, time 39m 35s
+rank 14, epoch 1, step 4000 / 14900, train loss 111.65, time 39m 36s
+rank 33, epoch 1, step 4000 / 14900, train loss 124.31, time 39m 37s
+rank 51, epoch 1, step 4000 / 14900, train loss 121.84, time 39m 41s
+rank 15, epoch 1, step 4000 / 14900, train loss 136.72, time 39m 41s
+rank 84, epoch 1, step 4000 / 14900, train loss 85.80, time 39m 43s
+rank 55, epoch 1, step 4000 / 14900, train loss 156.94, time 39m 44s
+rank 66, epoch 1, step 4000 / 14900, train loss 70.06, time 39m 46s
+rank 94, epoch 1, step 4000 / 14900, train loss 73.80, time 39m 42s
+rank 34, epoch 1, step 4000 / 14900, train loss 112.44, time 39m 45s
+rank 11, epoch 1, step 4000 / 14900, train loss 59.97, time 39m 43s
+rank 53, epoch 1, step 4000 / 14900, train loss 117.96, time 39m 44s
+rank 90, epoch 1, step 4000 / 14900, train loss 48.93, time 39m 50s
+rank 57, epoch 1, step 4000 / 14900, train loss 68.07, time 39m 52s
+rank 68, epoch 1, step 4000 / 14900, train loss 544.34, time 40m 0s
+rank 76, epoch 1, step 4000 / 14900, train loss 63.98, time 39m 60s
+rank 21, epoch 1, step 4000 / 14900, train loss 72.44, time 40m 8s
+rank 31, epoch 1, step 4000 / 14900, train loss 75.01, time 40m 8s
+rank 38, epoch 1, step 4000 / 14900, train loss 187.55, time 40m 9s
+rank 50, epoch 1, step 4000 / 14900, train loss 49.75, time 40m 16s
+rank 0, epoch 1, step 4000 / 14900, train loss 45.67, time 40m 14s
+rank 5, epoch 1, step 4000 / 14900, train loss 203.00, time 40m 18s
+rank 47, epoch 1, step 4000 / 14900, train loss 85.01, time 40m 19s
+rank 22, epoch 1, step 4000 / 14900, train loss 107.37, time 40m 22s
+rank 70, epoch 1, step 4000 / 14900, train loss 88.73, time 40m 24s
+rank 12, epoch 1, step 4000 / 14900, train loss 49.69, time 40m 27s
+rank 35, epoch 1, step 4000 / 14900, train loss 54.59, time 40m 28s
+rank 93, epoch 1, step 4000 / 14900, train loss 53.83, time 40m 38s
+rank 79, epoch 1, step 4000 / 14900, train loss 59.74, time 40m 45s
+rank 59, epoch 1, step 4000 / 14900, train loss 102.60, time 40m 47s
+rank 48, epoch 1, step 4000 / 14900, train loss 94.22, time 40m 54s
+rank 4, epoch 1, step 4000 / 14900, train loss 391.97, time 41m 2s
+rank 64, epoch 1, step 4000 / 14900, train loss 118.96, time 42m 4s
+rank 67, epoch 1, step 3000 / 14900, train loss 91.43, time 44m 58s
+rank 78, epoch 1, step 3000 / 14900, train loss 109.33, time 45m 2s
+rank 74, epoch 1, step 3000 / 14900, train loss 108.55, time 45m 4s
+rank 86, epoch 1, step 3000 / 14900, train loss 86.03, time 45m 7s
+rank 73, epoch 1, step 3000 / 14900, train loss 58.32, time 45m 14s
+rank 54, epoch 1, step 3000 / 14900, train loss 68.16, time 45m 18s
+rank 81, epoch 1, step 3000 / 14900, train loss 70.35, time 45m 17s
+rank 41, epoch 1, step 3000 / 14900, train loss 58.63, time 45m 25s
+rank 77, epoch 1, step 3000 / 14900, train loss 52.77, time 45m 40s
+rank 28, epoch 1, step 3000 / 14900, train loss 97.46, time 45m 49s
+rank 71, epoch 1, step 3000 / 14900, train loss 122.53, time 46m 7s
+rank 37, epoch 1, step 3000 / 14900, train loss 97.53, time 46m 20s
+rank 24, epoch 1, step 3000 / 14900, train loss 64.15, time 46m 23s
+rank 44, epoch 1, step 3000 / 14900, train loss 109.67, time 46m 35s
+rank 45, epoch 1, step 3000 / 14900, train loss 154.03, time 46m 39s
+rank 63, epoch 1, step 3000 / 14900, train loss 122.96, time 46m 44s
+rank 19, epoch 1, step 3000 / 14900, train loss 107.78, time 46m 43s
+rank 91, epoch 1, step 3000 / 14900, train loss 72.59, time 46m 45s
+rank 10, epoch 1, step 3000 / 14900, train loss 65.77, time 46m 45s
+rank 17, epoch 1, step 3000 / 14900, train loss 71.96, time 46m 44s
+rank 58, epoch 1, step 3000 / 14900, train loss 530.84, time 46m 55s
+rank 40, epoch 1, step 3000 / 14900, train loss 82.53, time 46m 56s
+rank 88, epoch 1, step 3000 / 14900, train loss 91.89, time 47m 2s
+rank 25, epoch 1, step 3000 / 14900, train loss 135.01, time 47m 0s
+rank 20, epoch 1, step 3000 / 14900, train loss 56.00, time 47m 2s
+rank 23, epoch 1, step 3000 / 14900, train loss 53.25, time 47m 2s
+rank 1, epoch 1, step 3000 / 14900, train loss 86.91, time 47m 7s
+rank 32, epoch 1, step 3000 / 14900, train loss 124.80, time 47m 17s
+rank 52, epoch 1, step 3000 / 14900, train loss 123.04, time 47m 14s
+rank 8, epoch 1, step 3000 / 14900, train loss 676.24, time 47m 14s
+rank 26, epoch 1, step 3000 / 14900, train loss 53.37, time 47m 14s
+rank 18, epoch 1, step 3000 / 14900, train loss 86.05, time 47m 32s
+rank 82, epoch 1, step 3000 / 14900, train loss 65.74, time 47m 31s
+rank 13, epoch 1, step 3000 / 14900, train loss 106.89, time 47m 35s
+rank 27, epoch 1, step 3000 / 14900, train loss 63.83, time 47m 41s
+rank 61, epoch 1, step 3000 / 14900, train loss 236.09, time 47m 42s
+rank 87, epoch 1, step 3000 / 14900, train loss 130.18, time 47m 47s
+rank 36, epoch 1, step 3000 / 14900, train loss 104.04, time 47m 43s
+rank 39, epoch 1, step 3000 / 14900, train loss 163.23, time 47m 45s
+rank 30, epoch 1, step 5000 / 14900, train loss 79.05, time 47m 51s
+rank 29, epoch 1, step 3000 / 14900, train loss 163.09, time 47m 50s
+rank 85, epoch 1, step 5000 / 14900, train loss 52.63, time 47m 52s
+rank 80, epoch 1, step 3000 / 14900, train loss 77.54, time 47m 53s
+rank 42, epoch 1, step 3000 / 14900, train loss 746.26, time 48m 4s
+rank 95, epoch 1, step 5000 / 14900, train loss 57.70, time 48m 18s
+rank 46, epoch 1, step 5000 / 14900, train loss 99.82, time 48m 47s
+rank 56, epoch 1, step 5000 / 14900, train loss 125.47, time 48m 56s
+rank 69, epoch 1, step 5000 / 14900, train loss 40.89, time 49m 13s
+rank 92, epoch 1, step 5000 / 14900, train loss 114.68, time 49m 15s
+rank 9, epoch 1, step 5000 / 14900, train loss 170.27, time 49m 21s
+rank 75, epoch 1, step 5000 / 14900, train loss 58.24, time 49m 22s
+rank 6, epoch 1, step 5000 / 14900, train loss 83.22, time 49m 23s
+rank 2, epoch 1, step 5000 / 14900, train loss 82.57, time 49m 23s
+rank 14, epoch 1, step 5000 / 14900, train loss 70.37, time 49m 28s
+rank 49, epoch 1, step 5000 / 14900, train loss 95.86, time 49m 29s
+rank 60, epoch 1, step 5000 / 14900, train loss 98.00, time 49m 29s
+rank 33, epoch 1, step 5000 / 14900, train loss 76.69, time 49m 30s
+rank 62, epoch 1, step 5000 / 14900, train loss 61.91, time 49m 31s
+rank 16, epoch 1, step 5000 / 14900, train loss 93.53, time 49m 32s
+rank 11, epoch 1, step 5000 / 14900, train loss 67.06, time 49m 29s
+rank 51, epoch 1, step 5000 / 14900, train loss 63.71, time 49m 34s
+rank 66, epoch 1, step 5000 / 14900, train loss 95.23, time 49m 34s
+rank 55, epoch 1, step 5000 / 14900, train loss 112.60, time 49m 36s
+rank 15, epoch 1, step 5000 / 14900, train loss 78.82, time 49m 37s
+rank 53, epoch 1, step 5000 / 14900, train loss 341.85, time 49m 36s
+rank 43, epoch 1, step 5000 / 14900, train loss 84.49, time 49m 45s
+rank 90, epoch 1, step 5000 / 14900, train loss 102.32, time 49m 46s
+rank 84, epoch 1, step 5000 / 14900, train loss 53.16, time 49m 46s
+rank 34, epoch 1, step 5000 / 14900, train loss 134.27, time 49m 46s
+rank 57, epoch 1, step 5000 / 14900, train loss 73.50, time 49m 51s
+rank 94, epoch 1, step 5000 / 14900, train loss 81.98, time 49m 49s
+rank 68, epoch 1, step 5000 / 14900, train loss 127.65, time 50m 0s
+rank 38, epoch 1, step 5000 / 14900, train loss 102.02, time 50m 4s
+rank 76, epoch 1, step 5000 / 14900, train loss 67.64, time 50m 1s
+rank 31, epoch 1, step 5000 / 14900, train loss 53.99, time 50m 4s
+rank 50, epoch 1, step 5000 / 14900, train loss 71.76, time 50m 15s
+rank 21, epoch 1, step 5000 / 14900, train loss 109.29, time 50m 16s
+rank 47, epoch 1, step 5000 / 14900, train loss 180.95, time 50m 22s
+rank 5, epoch 1, step 5000 / 14900, train loss 347.51, time 50m 22s
+rank 70, epoch 1, step 5000 / 14900, train loss 92.76, time 50m 24s
+rank 35, epoch 1, step 5000 / 14900, train loss 96.07, time 50m 31s
+rank 12, epoch 1, step 5000 / 14900, train loss 753.32, time 50m 31s
+rank 22, epoch 1, step 5000 / 14900, train loss 97.07, time 50m 33s
+rank 0, epoch 1, step 5000 / 14900, train loss 64.65, time 50m 32s
+rank 93, epoch 1, step 5000 / 14900, train loss 185.59, time 50m 49s
+rank 79, epoch 1, step 5000 / 14900, train loss 100.14, time 50m 56s
+rank 89, epoch 1, step 3000 / 14900, train loss 62.74, time 50m 57s
+rank 48, epoch 1, step 5000 / 14900, train loss 194.80, time 51m 1s
+rank 59, epoch 1, step 5000 / 14900, train loss 87.72, time 51m 8s
+rank 4, epoch 1, step 5000 / 14900, train loss 343.60, time 51m 7s
+rank 7, epoch 1, step 3000 / 14900, train loss 129.53, time 51m 42s
+rank 65, epoch 1, step 3000 / 14900, train loss 52.48, time 51m 44s
+rank 72, epoch 1, step 3000 / 14900, train loss 152.99, time 51m 54s
+rank 3, epoch 1, step 3000 / 14900, train loss 88.05, time 52m 1s
+rank 83, epoch 1, step 3000 / 14900, train loss 114.78, time 52m 21s
+rank 64, epoch 1, step 5000 / 14900, train loss 59.42, time 52m 27s
+rank 85, epoch 1, step 6000 / 14900, train loss 98.39, time 57m 26s
+rank 30, epoch 1, step 6000 / 14900, train loss 76.28, time 57m 33s
+rank 95, epoch 1, step 6000 / 14900, train loss 102.38, time 57m 59s
+rank 46, epoch 1, step 6000 / 14900, train loss 71.11, time 58m 23s
+rank 56, epoch 1, step 6000 / 14900, train loss 92.02, time 58m 47s
+rank 69, epoch 1, step 6000 / 14900, train loss 80.17, time 58m 59s
+rank 32, epoch 1, step 4000 / 14900, train loss 84.90, time 58m 59s
+rank 6, epoch 1, step 6000 / 14900, train loss 132.53, time 59m 7s
+rank 92, epoch 1, step 6000 / 14900, train loss 78.73, time 59m 10s
+rank 9, epoch 1, step 6000 / 14900, train loss 69.34, time 59m 16s
+rank 14, epoch 1, step 6000 / 14900, train loss 145.37, time 59m 16s
+rank 2, epoch 1, step 6000 / 14900, train loss 95.51, time 59m 17s
+rank 16, epoch 1, step 6000 / 14900, train loss 72.25, time 59m 19s
+rank 75, epoch 1, step 6000 / 14900, train loss 57.34, time 59m 20s
+rank 33, epoch 1, step 6000 / 14900, train loss 88.27, time 59m 27s
+rank 60, epoch 1, step 6000 / 14900, train loss 97.17, time 59m 27s
+rank 62, epoch 1, step 6000 / 14900, train loss 85.46, time 59m 28s
+rank 66, epoch 1, step 6000 / 14900, train loss 103.51, time 59m 32s
+rank 11, epoch 1, step 6000 / 14900, train loss 55.99, time 59m 30s
+rank 43, epoch 1, step 6000 / 14900, train loss 107.33, time 59m 35s
+rank 90, epoch 1, step 6000 / 14900, train loss 58.57, time 59m 37s
+rank 53, epoch 1, step 6000 / 14900, train loss 65.89, time 59m 35s
+rank 51, epoch 1, step 6000 / 14900, train loss 88.37, time 59m 39s
+rank 84, epoch 1, step 6000 / 14900, train loss 57.15, time 59m 40s
+rank 55, epoch 1, step 6000 / 14900, train loss 91.07, time 59m 41s
+rank 57, epoch 1, step 6000 / 14900, train loss 87.33, time 59m 43s
+rank 15, epoch 1, step 6000 / 14900, train loss 66.58, time 59m 44s
+rank 94, epoch 1, step 6000 / 14900, train loss 77.76, time 59m 40s
+rank 34, epoch 1, step 6000 / 14900, train loss 72.70, time 59m 44s
+rank 68, epoch 1, step 6000 / 14900, train loss 323.44, time 59m 52s
+rank 31, epoch 1, step 6000 / 14900, train loss 77.02, time 59m 59s
+rank 74, epoch 1, step 4000 / 14900, train loss 125.12, time 1h 0m 4s
+rank 86, epoch 1, step 4000 / 14900, train loss 161.98, time 1h 0m 4s
+rank 67, epoch 1, step 4000 / 14900, train loss 89.34, time 1h 0m 10s
+rank 38, epoch 1, step 6000 / 14900, train loss 305.80, time 1h 0m 13s
+rank 50, epoch 1, step 6000 / 14900, train loss 107.91, time 1h 0m 18s
+rank 70, epoch 1, step 6000 / 14900, train loss 88.13, time 1h 0m 17s
+rank 21, epoch 1, step 6000 / 14900, train loss 64.75, time 1h 0m 20s
+rank 12, epoch 1, step 6000 / 14900, train loss 87.87, time 1h 0m 21s
+rank 76, epoch 1, step 6000 / 14900, train loss 52.31, time 1h 0m 19s
+rank 5, epoch 1, step 6000 / 14900, train loss 227.83, time 1h 0m 24s
+rank 81, epoch 1, step 4000 / 14900, train loss 93.55, time 1h 0m 24s
+rank 22, epoch 1, step 6000 / 14900, train loss 104.50, time 1h 0m 28s
+rank 47, epoch 1, step 6000 / 14900, train loss 87.20, time 1h 0m 29s
+rank 78, epoch 1, step 4000 / 14900, train loss 220.76, time 1h 0m 30s
+rank 54, epoch 1, step 4000 / 14900, train loss 98.36, time 1h 0m 33s
+rank 73, epoch 1, step 4000 / 14900, train loss 58.88, time 1h 0m 33s
+rank 41, epoch 1, step 4000 / 14900, train loss 98.75, time 1h 0m 39s
+rank 0, epoch 1, step 6000 / 14900, train loss 48.29, time 1h 0m 39s
+rank 35, epoch 1, step 6000 / 14900, train loss 84.84, time 1h 0m 45s
+rank 4, epoch 1, step 6000 / 14900, train loss 104.42, time 1h 1m 7s
+rank 48, epoch 1, step 6000 / 14900, train loss 89.41, time 1h 1m 8s
+rank 79, epoch 1, step 6000 / 14900, train loss 123.35, time 1h 1m 10s
+rank 71, epoch 1, step 4000 / 14900, train loss 80.45, time 1h 1m 13s
+rank 93, epoch 1, step 6000 / 14900, train loss 81.97, time 1h 1m 15s
+rank 28, epoch 1, step 4000 / 14900, train loss 108.76, time 1h 1m 15s
+rank 77, epoch 1, step 4000 / 14900, train loss 65.43, time 1h 1m 18s
+rank 59, epoch 1, step 6000 / 14900, train loss 72.90, time 1h 1m 23s
+rank 24, epoch 1, step 4000 / 14900, train loss 189.43, time 1h 1m 46s
+rank 37, epoch 1, step 4000 / 14900, train loss 58.05, time 1h 1m 52s
+rank 44, epoch 1, step 4000 / 14900, train loss 86.38, time 1h 2m 1s
+rank 19, epoch 1, step 4000 / 14900, train loss 66.43, time 1h 2m 8s
+rank 17, epoch 1, step 4000 / 14900, train loss 71.96, time 1h 2m 15s
+rank 1, epoch 1, step 4000 / 14900, train loss 59.96, time 1h 2m 16s
+rank 45, epoch 1, step 4000 / 14900, train loss 92.29, time 1h 2m 19s
+rank 10, epoch 1, step 4000 / 14900, train loss 45.63, time 1h 2m 23s
+rank 23, epoch 1, step 4000 / 14900, train loss 79.46, time 1h 2m 24s
+rank 91, epoch 1, step 4000 / 14900, train loss 64.70, time 1h 2m 30s
+rank 25, epoch 1, step 4000 / 14900, train loss 86.40, time 1h 2m 33s
+rank 63, epoch 1, step 4000 / 14900, train loss 146.58, time 1h 2m 37s
+rank 64, epoch 1, step 6000 / 14900, train loss 115.96, time 1h 2m 38s
+rank 88, epoch 1, step 4000 / 14900, train loss 66.80, time 1h 2m 44s
+rank 52, epoch 1, step 4000 / 14900, train loss 116.86, time 1h 2m 42s
+rank 20, epoch 1, step 4000 / 14900, train loss 120.09, time 1h 2m 44s
+rank 58, epoch 1, step 4000 / 14900, train loss 248.57, time 1h 2m 44s
+rank 40, epoch 1, step 4000 / 14900, train loss 70.95, time 1h 2m 43s
+rank 8, epoch 1, step 4000 / 14900, train loss 4499.61, time 1h 3m 3s
+rank 26, epoch 1, step 4000 / 14900, train loss 76.50, time 1h 3m 10s
+rank 39, epoch 1, step 4000 / 14900, train loss 88.07, time 1h 3m 22s
+rank 82, epoch 1, step 4000 / 14900, train loss 53.29, time 1h 3m 24s
+rank 18, epoch 1, step 4000 / 14900, train loss 113.23, time 1h 3m 29s
+rank 36, epoch 1, step 4000 / 14900, train loss 49.14, time 1h 3m 34s
+rank 61, epoch 1, step 4000 / 14900, train loss 147.23, time 1h 3m 34s
+rank 27, epoch 1, step 4000 / 14900, train loss 81.06, time 1h 3m 39s
+rank 87, epoch 1, step 4000 / 14900, train loss 170.92, time 1h 3m 40s
+rank 80, epoch 1, step 4000 / 14900, train loss 105.16, time 1h 3m 42s
+rank 13, epoch 1, step 4000 / 14900, train loss 94.92, time 1h 3m 45s
+rank 29, epoch 1, step 4000 / 14900, train loss 60.40, time 1h 3m 50s
+rank 42, epoch 1, step 4000 / 14900, train loss 276.74, time 1h 3m 56s
+rank 49, epoch 1, step 6000 / 14900, train loss 108.78, time 1h 4m 15s
+rank 85, epoch 1, step 7000 / 14900, train loss 67.53, time 1h 7m 3s
+rank 30, epoch 1, step 7000 / 14900, train loss 64.64, time 1h 7m 7s
+rank 95, epoch 1, step 7000 / 14900, train loss 100.09, time 1h 7m 40s
+rank 89, epoch 1, step 4000 / 14900, train loss 62.05, time 1h 7m 44s
+rank 46, epoch 1, step 7000 / 14900, train loss 77.66, time 1h 8m 8s
+rank 56, epoch 1, step 7000 / 14900, train loss 67.24, time 1h 8m 41s
+rank 3, epoch 1, step 4000 / 14900, train loss 114.38, time 1h 8m 40s
+rank 69, epoch 1, step 7000 / 14900, train loss 84.20, time 1h 8m 56s
+rank 32, epoch 1, step 5000 / 14900, train loss 85.98, time 1h 8m 58s
+rank 6, epoch 1, step 7000 / 14900, train loss 50.43, time 1h 8m 59s
+rank 75, epoch 1, step 7000 / 14900, train loss 63.14, time 1h 9m 5s
+rank 65, epoch 1, step 4000 / 14900, train loss 65.32, time 1h 9m 0s
+rank 9, epoch 1, step 7000 / 14900, train loss 61.07, time 1h 9m 7s
+rank 7, epoch 1, step 4000 / 14900, train loss 45.30, time 1h 9m 5s
+rank 16, epoch 1, step 7000 / 14900, train loss 83.84, time 1h 9m 9s
+rank 92, epoch 1, step 7000 / 14900, train loss 142.20, time 1h 9m 9s
+rank 62, epoch 1, step 7000 / 14900, train loss 42.21, time 1h 9m 11s
+rank 2, epoch 1, step 7000 / 14900, train loss 72.31, time 1h 9m 11s
+rank 14, epoch 1, step 7000 / 14900, train loss 63.63, time 1h 9m 12s
+rank 43, epoch 1, step 7000 / 14900, train loss 65.28, time 1h 9m 25s
+rank 66, epoch 1, step 7000 / 14900, train loss 71.30, time 1h 9m 27s
+rank 90, epoch 1, step 7000 / 14900, train loss 34.36, time 1h 9m 27s
+rank 60, epoch 1, step 7000 / 14900, train loss 78.42, time 1h 9m 27s
+rank 72, epoch 1, step 4000 / 14900, train loss 107.42, time 1h 9m 24s
+rank 33, epoch 1, step 7000 / 14900, train loss 67.82, time 1h 9m 29s
+rank 55, epoch 1, step 7000 / 14900, train loss 84.57, time 1h 9m 32s
+rank 34, epoch 1, step 7000 / 14900, train loss 47.15, time 1h 9m 34s
+rank 11, epoch 1, step 7000 / 14900, train loss 91.05, time 1h 9m 34s
+rank 51, epoch 1, step 7000 / 14900, train loss 64.71, time 1h 9m 42s
+rank 53, epoch 1, step 7000 / 14900, train loss 72.74, time 1h 9m 39s
+rank 84, epoch 1, step 7000 / 14900, train loss 56.07, time 1h 9m 45s
+rank 94, epoch 1, step 7000 / 14900, train loss 117.63, time 1h 9m 41s
+rank 57, epoch 1, step 7000 / 14900, train loss 92.46, time 1h 9m 49s
+rank 15, epoch 1, step 7000 / 14900, train loss 100.89, time 1h 9m 51s
+rank 83, epoch 1, step 4000 / 14900, train loss 46.39, time 1h 9m 55s
+rank 31, epoch 1, step 7000 / 14900, train loss 53.39, time 1h 10m 5s
+rank 0, epoch 1, step 7000 / 14900, train loss 48.71, time 1h 10m 8s
+rank 70, epoch 1, step 7000 / 14900, train loss 50.06, time 1h 10m 14s
+rank 38, epoch 1, step 7000 / 14900, train loss 178.66, time 1h 10m 16s
+rank 50, epoch 1, step 7000 / 14900, train loss 95.80, time 1h 10m 20s
+rank 76, epoch 1, step 7000 / 14900, train loss 81.98, time 1h 10m 17s
+rank 47, epoch 1, step 7000 / 14900, train loss 91.41, time 1h 10m 23s
+rank 21, epoch 1, step 7000 / 14900, train loss 72.77, time 1h 10m 22s
+rank 22, epoch 1, step 7000 / 14900, train loss 76.78, time 1h 10m 29s
+rank 12, epoch 1, step 7000 / 14900, train loss 532.12, time 1h 10m 30s
+rank 5, epoch 1, step 7000 / 14900, train loss 162.78, time 1h 10m 33s
+rank 4, epoch 1, step 7000 / 14900, train loss 72.66, time 1h 10m 54s
+rank 35, epoch 1, step 7000 / 14900, train loss 71.74, time 1h 10m 60s
+rank 48, epoch 1, step 7000 / 14900, train loss 78.24, time 1h 11m 20s
+rank 79, epoch 1, step 7000 / 14900, train loss 60.84, time 1h 11m 22s
+rank 93, epoch 1, step 7000 / 14900, train loss 71.75, time 1h 11m 21s
+rank 59, epoch 1, step 7000 / 14900, train loss 60.00, time 1h 11m 40s
+rank 68, epoch 1, step 7000 / 14900, train loss 270.85, time 1h 11m 45s
+rank 64, epoch 1, step 7000 / 14900, train loss 110.24, time 1h 13m 1s
+rank 44, epoch 1, step 5000 / 14900, train loss 121.21, time 1h 13m 36s
+rank 67, epoch 1, step 5000 / 14900, train loss 91.66, time 1h 15m 9s
+rank 86, epoch 1, step 5000 / 14900, train loss 63.05, time 1h 15m 12s
+rank 74, epoch 1, step 5000 / 14900, train loss 86.35, time 1h 15m 17s
+rank 81, epoch 1, step 5000 / 14900, train loss 145.83, time 1h 15m 18s
+rank 73, epoch 1, step 5000 / 14900, train loss 33.26, time 1h 15m 39s
+rank 41, epoch 1, step 5000 / 14900, train loss 42.50, time 1h 15m 43s
+rank 78, epoch 1, step 5000 / 14900, train loss 181.83, time 1h 15m 40s
+rank 54, epoch 1, step 5000 / 14900, train loss 93.40, time 1h 15m 51s
+rank 30, epoch 1, step 8000 / 14900, train loss 98.62, time 1h 16m 37s
+rank 77, epoch 1, step 5000 / 14900, train loss 68.66, time 1h 16m 34s
+rank 85, epoch 1, step 8000 / 14900, train loss 99.35, time 1h 16m 39s
+rank 71, epoch 1, step 5000 / 14900, train loss 54.50, time 1h 16m 46s
+rank 28, epoch 1, step 5000 / 14900, train loss 65.40, time 1h 16m 53s
+rank 95, epoch 1, step 8000 / 14900, train loss 86.76, time 1h 17m 13s
+rank 24, epoch 1, step 5000 / 14900, train loss 87.76, time 1h 17m 9s
+rank 1, epoch 1, step 5000 / 14900, train loss 89.93, time 1h 17m 27s
+rank 37, epoch 1, step 5000 / 14900, train loss 59.99, time 1h 17m 27s
+rank 46, epoch 1, step 8000 / 14900, train loss 77.16, time 1h 17m 46s
+rank 19, epoch 1, step 5000 / 14900, train loss 88.46, time 1h 17m 53s
+rank 17, epoch 1, step 5000 / 14900, train loss 85.23, time 1h 17m 54s
+rank 23, epoch 1, step 5000 / 14900, train loss 102.88, time 1h 18m 0s
+rank 45, epoch 1, step 5000 / 14900, train loss 58.44, time 1h 18m 6s
+rank 25, epoch 1, step 5000 / 14900, train loss 64.43, time 1h 18m 13s
+rank 58, epoch 1, step 5000 / 14900, train loss 445.44, time 1h 18m 15s
+rank 91, epoch 1, step 5000 / 14900, train loss 82.54, time 1h 18m 21s
+rank 10, epoch 1, step 5000 / 14900, train loss 57.58, time 1h 18m 21s
+rank 20, epoch 1, step 5000 / 14900, train loss 82.72, time 1h 18m 25s
+rank 63, epoch 1, step 5000 / 14900, train loss 81.48, time 1h 18m 30s
+rank 56, epoch 1, step 8000 / 14900, train loss 43.94, time 1h 18m 30s
+rank 52, epoch 1, step 5000 / 14900, train loss 64.91, time 1h 18m 33s
+rank 40, epoch 1, step 5000 / 14900, train loss 133.75, time 1h 18m 36s
+rank 88, epoch 1, step 5000 / 14900, train loss 90.82, time 1h 18m 43s
+rank 69, epoch 1, step 8000 / 14900, train loss 87.12, time 1h 18m 50s
+rank 6, epoch 1, step 8000 / 14900, train loss 85.43, time 1h 18m 53s
+rank 26, epoch 1, step 5000 / 14900, train loss 115.71, time 1h 18m 55s
+rank 2, epoch 1, step 8000 / 14900, train loss 91.91, time 1h 18m 59s
+rank 14, epoch 1, step 8000 / 14900, train loss 70.01, time 1h 18m 60s
+rank 75, epoch 1, step 8000 / 14900, train loss 73.45, time 1h 19m 2s
+rank 92, epoch 1, step 8000 / 14900, train loss 91.59, time 1h 19m 2s
+rank 16, epoch 1, step 8000 / 14900, train loss 66.03, time 1h 19m 4s
+rank 62, epoch 1, step 8000 / 14900, train loss 57.59, time 1h 19m 5s
+rank 9, epoch 1, step 8000 / 14900, train loss 50.41, time 1h 19m 7s
+rank 32, epoch 1, step 6000 / 14900, train loss 143.65, time 1h 19m 8s
+rank 8, epoch 1, step 5000 / 14900, train loss 2109.41, time 1h 19m 6s
+rank 43, epoch 1, step 8000 / 14900, train loss 54.71, time 1h 19m 12s
+rank 39, epoch 1, step 5000 / 14900, train loss 114.62, time 1h 19m 14s
+rank 90, epoch 1, step 8000 / 14900, train loss 31.83, time 1h 19m 21s
+rank 82, epoch 1, step 5000 / 14900, train loss 63.63, time 1h 19m 18s
+rank 18, epoch 1, step 5000 / 14900, train loss 90.65, time 1h 19m 22s
+rank 60, epoch 1, step 8000 / 14900, train loss 41.43, time 1h 19m 23s
+rank 11, epoch 1, step 8000 / 14900, train loss 105.35, time 1h 19m 21s
+rank 49, epoch 1, step 7000 / 14900, train loss 58.89, time 1h 19m 28s
+rank 66, epoch 1, step 8000 / 14900, train loss 88.48, time 1h 19m 29s
+rank 33, epoch 1, step 8000 / 14900, train loss 62.89, time 1h 19m 29s
+rank 36, epoch 1, step 5000 / 14900, train loss 99.20, time 1h 19m 25s
+rank 87, epoch 1, step 5000 / 14900, train loss 123.66, time 1h 19m 31s
+rank 34, epoch 1, step 8000 / 14900, train loss 129.36, time 1h 19m 30s
+rank 55, epoch 1, step 8000 / 14900, train loss 79.96, time 1h 19m 34s
+rank 0, epoch 1, step 8000 / 14900, train loss 84.75, time 1h 19m 34s
+rank 29, epoch 1, step 5000 / 14900, train loss 88.01, time 1h 19m 35s
+rank 61, epoch 1, step 5000 / 14900, train loss 70.33, time 1h 19m 33s
+rank 53, epoch 1, step 8000 / 14900, train loss 121.52, time 1h 19m 37s
+rank 84, epoch 1, step 8000 / 14900, train loss 56.92, time 1h 19m 43s
+rank 27, epoch 1, step 5000 / 14900, train loss 65.95, time 1h 19m 43s
+rank 51, epoch 1, step 8000 / 14900, train loss 75.24, time 1h 19m 43s
+rank 13, epoch 1, step 5000 / 14900, train loss 72.40, time 1h 19m 46s
+rank 15, epoch 1, step 8000 / 14900, train loss 80.08, time 1h 19m 50s
+rank 57, epoch 1, step 8000 / 14900, train loss 69.74, time 1h 19m 50s
+rank 94, epoch 1, step 8000 / 14900, train loss 63.31, time 1h 19m 48s
+rank 80, epoch 1, step 5000 / 14900, train loss 69.19, time 1h 19m 54s
+rank 42, epoch 1, step 5000 / 14900, train loss 247.76, time 1h 19m 58s
+rank 31, epoch 1, step 8000 / 14900, train loss 75.78, time 1h 20m 5s
+rank 38, epoch 1, step 8000 / 14900, train loss 173.24, time 1h 20m 10s
+rank 21, epoch 1, step 8000 / 14900, train loss 35.27, time 1h 20m 11s
+rank 4, epoch 1, step 8000 / 14900, train loss 229.91, time 1h 20m 18s
+rank 47, epoch 1, step 8000 / 14900, train loss 71.50, time 1h 20m 26s
+rank 76, epoch 1, step 8000 / 14900, train loss 44.25, time 1h 20m 23s
+rank 50, epoch 1, step 8000 / 14900, train loss 91.65, time 1h 20m 27s
+rank 70, epoch 1, step 8000 / 14900, train loss 93.40, time 1h 20m 29s
+rank 12, epoch 1, step 8000 / 14900, train loss 88.92, time 1h 20m 31s
+rank 22, epoch 1, step 8000 / 14900, train loss 72.03, time 1h 20m 42s
+rank 5, epoch 1, step 8000 / 14900, train loss 82.89, time 1h 20m 50s
+rank 35, epoch 1, step 8000 / 14900, train loss 43.16, time 1h 21m 3s
+rank 48, epoch 1, step 8000 / 14900, train loss 49.87, time 1h 21m 21s
+rank 93, epoch 1, step 8000 / 14900, train loss 84.57, time 1h 21m 27s
+rank 79, epoch 1, step 8000 / 14900, train loss 72.87, time 1h 21m 34s
+rank 59, epoch 1, step 8000 / 14900, train loss 52.55, time 1h 21m 57s
+rank 64, epoch 1, step 8000 / 14900, train loss 89.38, time 1h 23m 19s
+rank 44, epoch 1, step 6000 / 14900, train loss 74.01, time 1h 23m 28s
+rank 89, epoch 1, step 5000 / 14900, train loss 61.01, time 1h 24m 56s
+rank 3, epoch 1, step 5000 / 14900, train loss 89.44, time 1h 25m 28s
+rank 30, epoch 1, step 9000 / 14900, train loss 69.21, time 1h 26m 8s
+rank 85, epoch 1, step 9000 / 14900, train loss 225.68, time 1h 26m 20s
+rank 7, epoch 1, step 5000 / 14900, train loss 90.29, time 1h 26m 17s
+rank 65, epoch 1, step 5000 / 14900, train loss 73.94, time 1h 26m 26s
+rank 95, epoch 1, step 9000 / 14900, train loss 74.26, time 1h 26m 53s
+rank 72, epoch 1, step 5000 / 14900, train loss 72.90, time 1h 26m 49s
+rank 46, epoch 1, step 9000 / 14900, train loss 110.88, time 1h 27m 22s
+rank 68, epoch 1, step 8000 / 14900, train loss 165.48, time 1h 27m 42s
+rank 83, epoch 1, step 5000 / 14900, train loss 79.88, time 1h 27m 40s
+rank 56, epoch 1, step 9000 / 14900, train loss 116.35, time 1h 28m 19s
+rank 2, epoch 1, step 9000 / 14900, train loss 83.38, time 1h 28m 42s
+rank 6, epoch 1, step 9000 / 14900, train loss 84.67, time 1h 28m 49s
+rank 69, epoch 1, step 9000 / 14900, train loss 124.97, time 1h 28m 54s
+rank 14, epoch 1, step 9000 / 14900, train loss 39.38, time 1h 28m 54s
+rank 75, epoch 1, step 9000 / 14900, train loss 50.33, time 1h 28m 55s
+rank 16, epoch 1, step 9000 / 14900, train loss 39.45, time 1h 28m 54s
+rank 0, epoch 1, step 9000 / 14900, train loss 64.68, time 1h 28m 54s
+rank 92, epoch 1, step 9000 / 14900, train loss 63.48, time 1h 28m 56s
+rank 43, epoch 1, step 9000 / 14900, train loss 70.36, time 1h 29m 2s
+rank 62, epoch 1, step 9000 / 14900, train loss 87.91, time 1h 29m 3s
+rank 9, epoch 1, step 9000 / 14900, train loss 71.35, time 1h 29m 4s
+rank 60, epoch 1, step 9000 / 14900, train loss 184.75, time 1h 29m 10s
+rank 90, epoch 1, step 9000 / 14900, train loss 81.92, time 1h 29m 12s
+rank 32, epoch 1, step 7000 / 14900, train loss 59.19, time 1h 29m 15s
+rank 11, epoch 1, step 9000 / 14900, train loss 93.58, time 1h 29m 14s
+rank 66, epoch 1, step 9000 / 14900, train loss 69.93, time 1h 29m 21s
+rank 34, epoch 1, step 9000 / 14900, train loss 44.05, time 1h 29m 21s
+rank 4, epoch 1, step 9000 / 14900, train loss 103.34, time 1h 29m 29s
+rank 55, epoch 1, step 9000 / 14900, train loss 87.48, time 1h 29m 33s
+rank 33, epoch 1, step 9000 / 14900, train loss 84.94, time 1h 29m 34s
+rank 53, epoch 1, step 9000 / 14900, train loss 63.25, time 1h 29m 32s
+rank 51, epoch 1, step 9000 / 14900, train loss 76.17, time 1h 29m 40s
+rank 84, epoch 1, step 9000 / 14900, train loss 42.23, time 1h 29m 42s
+rank 57, epoch 1, step 9000 / 14900, train loss 71.08, time 1h 29m 46s
+rank 15, epoch 1, step 9000 / 14900, train loss 96.66, time 1h 29m 53s
+rank 94, epoch 1, step 9000 / 14900, train loss 87.08, time 1h 29m 51s
+rank 31, epoch 1, step 9000 / 14900, train loss 47.54, time 1h 30m 16s
+rank 67, epoch 1, step 6000 / 14900, train loss 68.75, time 1h 30m 16s
+rank 47, epoch 1, step 9000 / 14900, train loss 55.57, time 1h 30m 24s
+rank 38, epoch 1, step 9000 / 14900, train loss 329.65, time 1h 30m 24s
+rank 21, epoch 1, step 9000 / 14900, train loss 61.17, time 1h 30m 24s
+rank 81, epoch 1, step 6000 / 14900, train loss 110.50, time 1h 30m 22s
+rank 74, epoch 1, step 6000 / 14900, train loss 84.23, time 1h 30m 23s
+rank 76, epoch 1, step 9000 / 14900, train loss 71.44, time 1h 30m 22s
+rank 70, epoch 1, step 9000 / 14900, train loss 60.96, time 1h 30m 31s
+rank 50, epoch 1, step 9000 / 14900, train loss 62.25, time 1h 30m 38s
+rank 86, epoch 1, step 6000 / 14900, train loss 102.02, time 1h 30m 39s
+rank 22, epoch 1, step 9000 / 14900, train loss 100.71, time 1h 30m 43s
+rank 12, epoch 1, step 9000 / 14900, train loss 83.68, time 1h 30m 44s
+rank 78, epoch 1, step 6000 / 14900, train loss 114.07, time 1h 30m 41s
+rank 41, epoch 1, step 6000 / 14900, train loss 134.11, time 1h 30m 50s
+rank 5, epoch 1, step 9000 / 14900, train loss 88.37, time 1h 30m 49s
+rank 54, epoch 1, step 6000 / 14900, train loss 86.02, time 1h 31m 8s
+rank 35, epoch 1, step 9000 / 14900, train loss 55.67, time 1h 31m 10s
+rank 73, epoch 1, step 6000 / 14900, train loss 34.06, time 1h 31m 24s
+rank 93, epoch 1, step 9000 / 14900, train loss 54.44, time 1h 31m 35s
+rank 48, epoch 1, step 9000 / 14900, train loss 132.44, time 1h 31m 38s
+rank 79, epoch 1, step 9000 / 14900, train loss 61.92, time 1h 31m 39s
+rank 77, epoch 1, step 6000 / 14900, train loss 105.12, time 1h 32m 2s
+rank 71, epoch 1, step 6000 / 14900, train loss 63.14, time 1h 32m 12s
+rank 59, epoch 1, step 9000 / 14900, train loss 98.29, time 1h 32m 26s
+rank 28, epoch 1, step 6000 / 14900, train loss 205.88, time 1h 32m 27s
+rank 1, epoch 1, step 6000 / 14900, train loss 50.02, time 1h 32m 30s
+rank 37, epoch 1, step 6000 / 14900, train loss 111.03, time 1h 32m 51s
+rank 24, epoch 1, step 6000 / 14900, train loss 123.17, time 1h 32m 54s
+rank 44, epoch 1, step 7000 / 14900, train loss 116.85, time 1h 33m 16s
+rank 17, epoch 1, step 6000 / 14900, train loss 62.36, time 1h 33m 31s
+rank 19, epoch 1, step 6000 / 14900, train loss 69.10, time 1h 33m 33s
+rank 23, epoch 1, step 6000 / 14900, train loss 209.56, time 1h 33m 36s
+rank 64, epoch 1, step 9000 / 14900, train loss 78.78, time 1h 33m 44s
+rank 25, epoch 1, step 6000 / 14900, train loss 138.18, time 1h 33m 41s
+rank 58, epoch 1, step 6000 / 14900, train loss 177.11, time 1h 33m 53s
+rank 45, epoch 1, step 6000 / 14900, train loss 40.96, time 1h 33m 53s
+rank 10, epoch 1, step 6000 / 14900, train loss 78.49, time 1h 34m 2s
+rank 63, epoch 1, step 6000 / 14900, train loss 109.29, time 1h 34m 11s
+rank 20, epoch 1, step 6000 / 14900, train loss 106.05, time 1h 34m 11s
+rank 52, epoch 1, step 6000 / 14900, train loss 85.98, time 1h 34m 10s
+rank 91, epoch 1, step 6000 / 14900, train loss 140.06, time 1h 34m 12s
+rank 40, epoch 1, step 6000 / 14900, train loss 71.77, time 1h 34m 26s
+rank 88, epoch 1, step 6000 / 14900, train loss 102.38, time 1h 34m 33s
+rank 26, epoch 1, step 6000 / 14900, train loss 104.81, time 1h 34m 34s
+rank 49, epoch 1, step 8000 / 14900, train loss 85.15, time 1h 34m 51s
+rank 39, epoch 1, step 6000 / 14900, train loss 125.97, time 1h 34m 58s
+rank 8, epoch 1, step 6000 / 14900, train loss 42340.60, time 1h 34m 59s
+rank 87, epoch 1, step 6000 / 14900, train loss 80.28, time 1h 35m 12s
+rank 82, epoch 1, step 6000 / 14900, train loss 78.90, time 1h 35m 11s
+rank 36, epoch 1, step 6000 / 14900, train loss 86.42, time 1h 35m 16s
+rank 18, epoch 1, step 6000 / 14900, train loss 164.81, time 1h 35m 22s
+rank 29, epoch 1, step 6000 / 14900, train loss 198.32, time 1h 35m 37s
+rank 30, epoch 1, step 10000 / 14900, train loss 52.66, time 1h 35m 40s
+rank 80, epoch 1, step 6000 / 14900, train loss 64.33, time 1h 35m 47s
+rank 27, epoch 1, step 6000 / 14900, train loss 59.47, time 1h 35m 56s
+rank 61, epoch 1, step 6000 / 14900, train loss 88.89, time 1h 35m 53s
+rank 42, epoch 1, step 6000 / 14900, train loss 116.98, time 1h 35m 55s
+rank 85, epoch 1, step 10000 / 14900, train loss 2596.67, time 1h 36m 6s
+rank 13, epoch 1, step 6000 / 14900, train loss 58.04, time 1h 36m 5s
+rank 95, epoch 1, step 10000 / 14900, train loss 51.14, time 1h 36m 35s
+rank 46, epoch 1, step 10000 / 14900, train loss 46.52, time 1h 37m 2s
+rank 56, epoch 1, step 10000 / 14900, train loss 57.46, time 1h 38m 9s
+rank 0, epoch 1, step 10000 / 14900, train loss 45.49, time 1h 38m 18s
+rank 2, epoch 1, step 10000 / 14900, train loss 69.54, time 1h 38m 27s
+rank 69, epoch 1, step 10000 / 14900, train loss 44.74, time 1h 38m 36s
+rank 4, epoch 1, step 10000 / 14900, train loss 109.65, time 1h 38m 35s
+rank 92, epoch 1, step 10000 / 14900, train loss 111.95, time 1h 38m 37s
+rank 6, epoch 1, step 10000 / 14900, train loss 85.76, time 1h 38m 40s
+rank 14, epoch 1, step 10000 / 14900, train loss 90.24, time 1h 38m 42s
+rank 75, epoch 1, step 10000 / 14900, train loss 57.06, time 1h 38m 47s
+rank 16, epoch 1, step 10000 / 14900, train loss 57.81, time 1h 38m 53s
+rank 9, epoch 1, step 10000 / 14900, train loss 95.75, time 1h 38m 57s
+rank 43, epoch 1, step 10000 / 14900, train loss 106.94, time 1h 38m 60s
+rank 90, epoch 1, step 10000 / 14900, train loss 55.78, time 1h 39m 2s
+rank 60, epoch 1, step 10000 / 14900, train loss 138.37, time 1h 39m 2s
+rank 11, epoch 1, step 10000 / 14900, train loss 120.61, time 1h 38m 59s
+rank 66, epoch 1, step 10000 / 14900, train loss 84.04, time 1h 39m 5s
+rank 32, epoch 1, step 8000 / 14900, train loss 64.94, time 1h 39m 19s
+rank 34, epoch 1, step 10000 / 14900, train loss 57.17, time 1h 39m 17s
+rank 55, epoch 1, step 10000 / 14900, train loss 74.86, time 1h 39m 23s
+rank 53, epoch 1, step 10000 / 14900, train loss 88.48, time 1h 39m 24s
+rank 33, epoch 1, step 10000 / 14900, train loss 75.05, time 1h 39m 41s
+rank 51, epoch 1, step 10000 / 14900, train loss 67.46, time 1h 39m 43s
+rank 84, epoch 1, step 10000 / 14900, train loss 47.70, time 1h 39m 43s
+rank 57, epoch 1, step 10000 / 14900, train loss 65.75, time 1h 39m 43s
+rank 94, epoch 1, step 10000 / 14900, train loss 65.47, time 1h 39m 52s
+rank 15, epoch 1, step 10000 / 14900, train loss 50.32, time 1h 39m 56s
+rank 21, epoch 1, step 10000 / 14900, train loss 25.03, time 1h 40m 26s
+rank 31, epoch 1, step 10000 / 14900, train loss 105.95, time 1h 40m 26s
+rank 47, epoch 1, step 10000 / 14900, train loss 100.03, time 1h 40m 28s
+rank 38, epoch 1, step 10000 / 14900, train loss 190.64, time 1h 40m 27s
+rank 76, epoch 1, step 10000 / 14900, train loss 60.58, time 1h 40m 28s
+rank 50, epoch 1, step 10000 / 14900, train loss 81.71, time 1h 40m 40s
+rank 22, epoch 1, step 10000 / 14900, train loss 92.41, time 1h 40m 43s
+rank 70, epoch 1, step 10000 / 14900, train loss 73.20, time 1h 40m 45s
+rank 12, epoch 1, step 10000 / 14900, train loss 88.57, time 1h 40m 46s
+rank 62, epoch 1, step 10000 / 14900, train loss 43.63, time 1h 40m 47s
+rank 5, epoch 1, step 10000 / 14900, train loss 132.70, time 1h 40m 58s
+rank 35, epoch 1, step 10000 / 14900, train loss 94.25, time 1h 41m 22s
+rank 48, epoch 1, step 10000 / 14900, train loss 56.50, time 1h 41m 44s
+rank 79, epoch 1, step 10000 / 14900, train loss 89.07, time 1h 41m 51s
+rank 93, epoch 1, step 10000 / 14900, train loss 71.65, time 1h 41m 49s
+rank 3, epoch 1, step 6000 / 14900, train loss 72.58, time 1h 42m 2s
+rank 89, epoch 1, step 6000 / 14900, train loss 47.14, time 1h 42m 7s
+rank 7, epoch 1, step 6000 / 14900, train loss 75.73, time 1h 42m 21s
+rank 59, epoch 1, step 10000 / 14900, train loss 100.78, time 1h 42m 42s
+rank 44, epoch 1, step 8000 / 14900, train loss 87.79, time 1h 43m 12s
+rank 68, epoch 1, step 9000 / 14900, train loss 94.74, time 1h 43m 27s
+rank 65, epoch 1, step 6000 / 14900, train loss 95.14, time 1h 43m 43s
+rank 64, epoch 1, step 10000 / 14900, train loss 107.80, time 1h 44m 1s
+rank 72, epoch 1, step 6000 / 14900, train loss 100.77, time 1h 43m 58s
+rank 67, epoch 1, step 7000 / 14900, train loss 85.27, time 1h 45m 11s
+rank 88, epoch 1, step 7000 / 14900, train loss 103.99, time 1h 45m 14s
+rank 83, epoch 1, step 6000 / 14900, train loss 77.97, time 1h 45m 12s
+rank 30, epoch 1, step 11000 / 14900, train loss 78.28, time 1h 45m 20s
+rank 74, epoch 1, step 7000 / 14900, train loss 101.71, time 1h 45m 27s
+rank 81, epoch 1, step 7000 / 14900, train loss 126.52, time 1h 45m 37s
+rank 86, epoch 1, step 7000 / 14900, train loss 150.48, time 1h 45m 44s
+rank 85, epoch 1, step 11000 / 14900, train loss 279.26, time 1h 45m 47s
+rank 78, epoch 1, step 7000 / 14900, train loss 147.78, time 1h 45m 46s
+rank 41, epoch 1, step 7000 / 14900, train loss 94.56, time 1h 46m 9s
+rank 95, epoch 1, step 11000 / 14900, train loss 52.15, time 1h 46m 16s
+rank 54, epoch 1, step 7000 / 14900, train loss 39.41, time 1h 46m 16s
+rank 73, epoch 1, step 7000 / 14900, train loss 50.00, time 1h 46m 51s
+rank 46, epoch 1, step 11000 / 14900, train loss 71.95, time 1h 46m 58s
+rank 26, epoch 1, step 7000 / 14900, train loss 226.38, time 1h 47m 22s
+rank 1, epoch 1, step 7000 / 14900, train loss 68.94, time 1h 47m 23s
+rank 71, epoch 1, step 7000 / 14900, train loss 108.95, time 1h 47m 31s
+rank 0, epoch 1, step 11000 / 14900, train loss 65.31, time 1h 47m 41s
+rank 77, epoch 1, step 7000 / 14900, train loss 84.19, time 1h 47m 40s
+rank 2, epoch 1, step 11000 / 14900, train loss 109.71, time 1h 47m 45s
+rank 28, epoch 1, step 7000 / 14900, train loss 100.10, time 1h 47m 44s
+rank 4, epoch 1, step 11000 / 14900, train loss 128.25, time 1h 47m 49s
+rank 56, epoch 1, step 11000 / 14900, train loss 38.20, time 1h 47m 59s
+rank 92, epoch 1, step 11000 / 14900, train loss 106.55, time 1h 48m 10s
+rank 37, epoch 1, step 7000 / 14900, train loss 99.44, time 1h 48m 14s
+rank 13, epoch 1, step 7000 / 14900, train loss 55.60, time 1h 48m 17s
+rank 6, epoch 1, step 11000 / 14900, train loss 89.90, time 1h 48m 33s
+rank 69, epoch 1, step 11000 / 14900, train loss 58.92, time 1h 48m 36s
+rank 14, epoch 1, step 11000 / 14900, train loss 42.78, time 1h 48m 37s
+rank 24, epoch 1, step 7000 / 14900, train loss 81.51, time 1h 48m 40s
+rank 75, epoch 1, step 11000 / 14900, train loss 35.93, time 1h 48m 48s
+rank 11, epoch 1, step 11000 / 14900, train loss 48.43, time 1h 48m 45s
+rank 43, epoch 1, step 11000 / 14900, train loss 80.73, time 1h 48m 49s
+rank 60, epoch 1, step 11000 / 14900, train loss 30.07, time 1h 48m 55s
+rank 17, epoch 1, step 7000 / 14900, train loss 103.50, time 1h 48m 51s
+rank 66, epoch 1, step 11000 / 14900, train loss 55.83, time 1h 49m 1s
+rank 16, epoch 1, step 11000 / 14900, train loss 69.73, time 1h 49m 1s
+rank 9, epoch 1, step 11000 / 14900, train loss 119.02, time 1h 49m 1s
+rank 90, epoch 1, step 11000 / 14900, train loss 51.13, time 1h 49m 6s
+rank 34, epoch 1, step 11000 / 14900, train loss 64.59, time 1h 49m 8s
+rank 23, epoch 1, step 7000 / 14900, train loss 62.32, time 1h 49m 14s
+rank 32, epoch 1, step 9000 / 14900, train loss 60.75, time 1h 49m 19s
+rank 19, epoch 1, step 7000 / 14900, train loss 62.00, time 1h 49m 15s
+rank 25, epoch 1, step 7000 / 14900, train loss 66.07, time 1h 49m 20s
+rank 55, epoch 1, step 11000 / 14900, train loss 90.71, time 1h 49m 28s
+rank 84, epoch 1, step 11000 / 14900, train loss 38.64, time 1h 49m 40s
+rank 52, epoch 1, step 7000 / 14900, train loss 139.21, time 1h 49m 37s
+rank 45, epoch 1, step 7000 / 14900, train loss 69.96, time 1h 49m 38s
+rank 57, epoch 1, step 11000 / 14900, train loss 69.52, time 1h 49m 42s
+rank 33, epoch 1, step 11000 / 14900, train loss 59.38, time 1h 49m 45s
+rank 58, epoch 1, step 7000 / 14900, train loss 419.92, time 1h 49m 43s
+rank 51, epoch 1, step 11000 / 14900, train loss 110.89, time 1h 49m 47s
+rank 10, epoch 1, step 7000 / 14900, train loss 77.67, time 1h 49m 46s
+rank 8, epoch 1, step 7000 / 14900, train loss 31369.77, time 1h 49m 46s
+rank 63, epoch 1, step 7000 / 14900, train loss 79.11, time 1h 49m 56s
+rank 91, epoch 1, step 7000 / 14900, train loss 77.74, time 1h 49m 54s
+rank 94, epoch 1, step 11000 / 14900, train loss 106.14, time 1h 49m 56s
+rank 15, epoch 1, step 11000 / 14900, train loss 78.88, time 1h 50m 3s
+rank 20, epoch 1, step 7000 / 14900, train loss 128.39, time 1h 50m 4s
+rank 40, epoch 1, step 7000 / 14900, train loss 114.79, time 1h 50m 12s
+rank 49, epoch 1, step 9000 / 14900, train loss 57.19, time 1h 50m 27s
+rank 47, epoch 1, step 11000 / 14900, train loss 65.73, time 1h 50m 28s
+rank 76, epoch 1, step 11000 / 14900, train loss 81.69, time 1h 50m 27s
+rank 31, epoch 1, step 11000 / 14900, train loss 118.20, time 1h 50m 32s
+rank 38, epoch 1, step 11000 / 14900, train loss 122.17, time 1h 50m 33s
+rank 21, epoch 1, step 11000 / 14900, train loss 50.21, time 1h 50m 37s
+rank 50, epoch 1, step 11000 / 14900, train loss 51.83, time 1h 50m 46s
+rank 22, epoch 1, step 11000 / 14900, train loss 65.88, time 1h 50m 46s
+rank 5, epoch 1, step 11000 / 14900, train loss 105.27, time 1h 50m 47s
+rank 39, epoch 1, step 7000 / 14900, train loss 124.48, time 1h 50m 44s
+rank 87, epoch 1, step 7000 / 14900, train loss 47.30, time 1h 50m 49s
+rank 12, epoch 1, step 11000 / 14900, train loss 179.92, time 1h 50m 56s
+rank 82, epoch 1, step 7000 / 14900, train loss 48.05, time 1h 50m 54s
+rank 70, epoch 1, step 11000 / 14900, train loss 68.70, time 1h 50m 57s
+rank 18, epoch 1, step 7000 / 14900, train loss 82.58, time 1h 51m 7s
+rank 36, epoch 1, step 7000 / 14900, train loss 42.24, time 1h 51m 17s
+rank 29, epoch 1, step 7000 / 14900, train loss 62.63, time 1h 51m 25s
+rank 35, epoch 1, step 11000 / 14900, train loss 73.34, time 1h 51m 34s
+rank 80, epoch 1, step 7000 / 14900, train loss 105.49, time 1h 51m 36s
+rank 79, epoch 1, step 11000 / 14900, train loss 68.16, time 1h 51m 51s
+rank 61, epoch 1, step 7000 / 14900, train loss 119.33, time 1h 51m 51s
+rank 27, epoch 1, step 7000 / 14900, train loss 61.70, time 1h 51m 56s
+rank 48, epoch 1, step 11000 / 14900, train loss 42.90, time 1h 52m 1s
+rank 42, epoch 1, step 7000 / 14900, train loss 295.91, time 1h 51m 59s
+rank 59, epoch 1, step 11000 / 14900, train loss 64.02, time 1h 52m 60s
+rank 44, epoch 1, step 9000 / 14900, train loss 77.81, time 1h 53m 7s
+rank 53, epoch 1, step 11000 / 14900, train loss 51.84, time 1h 53m 44s
+rank 64, epoch 1, step 11000 / 14900, train loss 96.66, time 1h 54m 25s
+rank 30, epoch 1, step 12000 / 14900, train loss 60.40, time 1h 54m 55s
+rank 88, epoch 1, step 8000 / 14900, train loss 106.33, time 1h 55m 19s
+rank 85, epoch 1, step 12000 / 14900, train loss 161.95, time 1h 55m 24s
+rank 95, epoch 1, step 12000 / 14900, train loss 77.26, time 1h 55m 57s
+rank 62, epoch 1, step 11000 / 14900, train loss 45.20, time 1h 56m 23s
+rank 46, epoch 1, step 12000 / 14900, train loss 55.92, time 1h 56m 44s
+rank 2, epoch 1, step 12000 / 14900, train loss 65.22, time 1h 56m 47s
+rank 4, epoch 1, step 12000 / 14900, train loss 112.22, time 1h 56m 51s
+rank 0, epoch 1, step 12000 / 14900, train loss 87.41, time 1h 57m 5s
+rank 26, epoch 1, step 8000 / 14900, train loss 176.64, time 1h 57m 36s
+rank 56, epoch 1, step 12000 / 14900, train loss 103.05, time 1h 57m 50s
+rank 93, epoch 1, step 11000 / 14900, train loss 53.84, time 1h 57m 51s
+rank 92, epoch 1, step 12000 / 14900, train loss 48.56, time 1h 58m 7s
+rank 13, epoch 1, step 8000 / 14900, train loss 128.10, time 1h 58m 22s
+rank 69, epoch 1, step 12000 / 14900, train loss 105.95, time 1h 58m 24s
+rank 6, epoch 1, step 12000 / 14900, train loss 112.66, time 1h 58m 25s
+rank 14, epoch 1, step 12000 / 14900, train loss 40.99, time 1h 58m 32s
+rank 7, epoch 1, step 7000 / 14900, train loss 54.67, time 1h 58m 34s
+rank 11, epoch 1, step 12000 / 14900, train loss 47.24, time 1h 58m 38s
+rank 43, epoch 1, step 12000 / 14900, train loss 72.86, time 1h 58m 43s
+rank 75, epoch 1, step 12000 / 14900, train loss 60.61, time 1h 58m 47s
+rank 3, epoch 1, step 7000 / 14900, train loss 75.90, time 1h 58m 45s
+rank 66, epoch 1, step 12000 / 14900, train loss 75.91, time 1h 58m 53s
+rank 9, epoch 1, step 12000 / 14900, train loss 128.30, time 1h 58m 54s
+rank 60, epoch 1, step 12000 / 14900, train loss 57.96, time 1h 58m 56s
+rank 34, epoch 1, step 12000 / 14900, train loss 48.25, time 1h 59m 0s
+rank 16, epoch 1, step 12000 / 14900, train loss 108.63, time 1h 59m 4s
+rank 90, epoch 1, step 12000 / 14900, train loss 63.85, time 1h 59m 9s
+rank 89, epoch 1, step 7000 / 14900, train loss 54.07, time 1h 59m 12s
+rank 55, epoch 1, step 12000 / 14900, train loss 199.82, time 1h 59m 19s
+rank 32, epoch 1, step 10000 / 14900, train loss 119.99, time 1h 59m 29s
+rank 68, epoch 1, step 10000 / 14900, train loss 211.27, time 1h 59m 29s
+rank 84, epoch 1, step 12000 / 14900, train loss 52.14, time 1h 59m 40s
+rank 33, epoch 1, step 12000 / 14900, train loss 66.74, time 1h 59m 43s
+rank 57, epoch 1, step 12000 / 14900, train loss 58.19, time 1h 59m 50s
+rank 51, epoch 1, step 12000 / 14900, train loss 69.01, time 1h 59m 50s
+rank 94, epoch 1, step 12000 / 14900, train loss 41.75, time 1h 59m 59s
+rank 15, epoch 1, step 12000 / 14900, train loss 82.36, time 2h 0m 8s
+rank 5, epoch 1, step 12000 / 14900, train loss 76.83, time 2h 0m 17s
+rank 76, epoch 1, step 12000 / 14900, train loss 40.83, time 2h 0m 18s
+rank 67, epoch 1, step 8000 / 14900, train loss 47.08, time 2h 0m 20s
+rank 47, epoch 1, step 12000 / 14900, train loss 80.64, time 2h 0m 29s
+rank 31, epoch 1, step 12000 / 14900, train loss 80.33, time 2h 0m 28s
+rank 38, epoch 1, step 12000 / 14900, train loss 53.96, time 2h 0m 35s
+rank 74, epoch 1, step 8000 / 14900, train loss 117.57, time 2h 0m 33s
+rank 21, epoch 1, step 12000 / 14900, train loss 63.10, time 2h 0m 37s
+rank 81, epoch 1, step 8000 / 14900, train loss 89.08, time 2h 0m 38s
+rank 12, epoch 1, step 12000 / 14900, train loss 1658.50, time 2h 0m 46s
+rank 86, epoch 1, step 8000 / 14900, train loss 116.93, time 2h 0m 45s
+rank 50, epoch 1, step 12000 / 14900, train loss 64.64, time 2h 0m 52s
+rank 78, epoch 1, step 8000 / 14900, train loss 161.12, time 2h 0m 51s
+rank 22, epoch 1, step 12000 / 14900, train loss 53.12, time 2h 0m 59s
+rank 70, epoch 1, step 12000 / 14900, train loss 161.10, time 2h 1m 9s
+rank 72, epoch 1, step 7000 / 14900, train loss 180.93, time 2h 1m 15s
+rank 65, epoch 1, step 7000 / 14900, train loss 56.74, time 2h 1m 19s
+rank 41, epoch 1, step 8000 / 14900, train loss 68.41, time 2h 1m 31s
+rank 54, epoch 1, step 8000 / 14900, train loss 65.89, time 2h 1m 41s
+rank 35, epoch 1, step 12000 / 14900, train loss 61.50, time 2h 1m 48s
+rank 79, epoch 1, step 12000 / 14900, train loss 74.08, time 2h 2m 2s
+rank 73, epoch 1, step 8000 / 14900, train loss 33.47, time 2h 2m 6s
+rank 48, epoch 1, step 12000 / 14900, train loss 79.66, time 2h 2m 14s
+rank 1, epoch 1, step 8000 / 14900, train loss 91.63, time 2h 2m 19s
+rank 83, epoch 1, step 7000 / 14900, train loss 75.54, time 2h 2m 33s
+rank 44, epoch 1, step 10000 / 14900, train loss 65.01, time 2h 2m 53s
+rank 59, epoch 1, step 12000 / 14900, train loss 89.32, time 2h 3m 12s
+rank 28, epoch 1, step 8000 / 14900, train loss 68.37, time 2h 3m 11s
+rank 71, epoch 1, step 8000 / 14900, train loss 33.84, time 2h 3m 13s
+rank 77, epoch 1, step 8000 / 14900, train loss 125.96, time 2h 3m 13s
+rank 37, epoch 1, step 8000 / 14900, train loss 94.12, time 2h 3m 45s
+rank 24, epoch 1, step 8000 / 14900, train loss 109.29, time 2h 4m 10s
+rank 30, epoch 1, step 13000 / 14900, train loss 67.47, time 2h 4m 27s
+rank 17, epoch 1, step 8000 / 14900, train loss 94.82, time 2h 4m 38s
+rank 19, epoch 1, step 8000 / 14900, train loss 138.75, time 2h 4m 39s
+rank 8, epoch 1, step 8000 / 14900, train loss 1245.18, time 2h 4m 45s
+rank 64, epoch 1, step 12000 / 14900, train loss 105.34, time 2h 4m 49s
+rank 23, epoch 1, step 8000 / 14900, train loss 99.63, time 2h 4m 47s
+rank 85, epoch 1, step 13000 / 14900, train loss 398.93, time 2h 5m 11s
+rank 52, epoch 1, step 8000 / 14900, train loss 71.48, time 2h 5m 8s
+rank 25, epoch 1, step 8000 / 14900, train loss 87.57, time 2h 5m 16s
+rank 88, epoch 1, step 9000 / 14900, train loss 117.71, time 2h 5m 25s
+rank 45, epoch 1, step 8000 / 14900, train loss 105.31, time 2h 5m 25s
+rank 95, epoch 1, step 13000 / 14900, train loss 56.00, time 2h 5m 30s
+rank 10, epoch 1, step 8000 / 14900, train loss 38.76, time 2h 5m 26s
+rank 91, epoch 1, step 8000 / 14900, train loss 82.60, time 2h 5m 32s
+rank 63, epoch 1, step 8000 / 14900, train loss 71.29, time 2h 5m 39s
+rank 58, epoch 1, step 8000 / 14900, train loss 75.77, time 2h 5m 36s
+rank 20, epoch 1, step 8000 / 14900, train loss 79.86, time 2h 5m 43s
+rank 40, epoch 1, step 8000 / 14900, train loss 53.88, time 2h 5m 48s
+rank 2, epoch 1, step 13000 / 14900, train loss 94.43, time 2h 5m 60s
+rank 49, epoch 1, step 10000 / 14900, train loss 73.73, time 2h 6m 3s
+rank 4, epoch 1, step 13000 / 14900, train loss 145.95, time 2h 6m 5s
+rank 39, epoch 1, step 8000 / 14900, train loss 49.96, time 2h 6m 13s
+rank 0, epoch 1, step 13000 / 14900, train loss 42.60, time 2h 6m 23s
+rank 87, epoch 1, step 8000 / 14900, train loss 96.94, time 2h 6m 47s
+rank 46, epoch 1, step 13000 / 14900, train loss 73.10, time 2h 6m 49s
+rank 18, epoch 1, step 8000 / 14900, train loss 125.21, time 2h 6m 51s
+rank 82, epoch 1, step 8000 / 14900, train loss 86.66, time 2h 6m 48s
+rank 29, epoch 1, step 8000 / 14900, train loss 72.74, time 2h 7m 16s
+rank 36, epoch 1, step 8000 / 14900, train loss 66.13, time 2h 7m 21s
+rank 27, epoch 1, step 8000 / 14900, train loss 44.77, time 2h 7m 33s
+rank 80, epoch 1, step 8000 / 14900, train loss 43.89, time 2h 7m 37s
+rank 56, epoch 1, step 13000 / 14900, train loss 51.04, time 2h 7m 43s
+rank 6, epoch 1, step 13000 / 14900, train loss 58.41, time 2h 7m 49s
+rank 61, epoch 1, step 8000 / 14900, train loss 68.90, time 2h 7m 45s
+rank 42, epoch 1, step 8000 / 14900, train loss 2990.96, time 2h 7m 46s
+rank 26, epoch 1, step 9000 / 14900, train loss 88.41, time 2h 7m 47s
+rank 69, epoch 1, step 13000 / 14900, train loss 103.89, time 2h 8m 12s
+rank 92, epoch 1, step 13000 / 14900, train loss 78.28, time 2h 8m 12s
+rank 14, epoch 1, step 13000 / 14900, train loss 72.26, time 2h 8m 31s
+rank 43, epoch 1, step 13000 / 14900, train loss 56.93, time 2h 8m 36s
+rank 13, epoch 1, step 9000 / 14900, train loss 43.72, time 2h 8m 40s
+rank 11, epoch 1, step 13000 / 14900, train loss 94.28, time 2h 8m 38s
+rank 66, epoch 1, step 13000 / 14900, train loss 57.89, time 2h 8m 46s
+rank 34, epoch 1, step 13000 / 14900, train loss 45.27, time 2h 8m 47s
+rank 75, epoch 1, step 13000 / 14900, train loss 35.61, time 2h 8m 51s
+rank 9, epoch 1, step 13000 / 14900, train loss 44.23, time 2h 8m 50s
+rank 16, epoch 1, step 13000 / 14900, train loss 113.54, time 2h 8m 58s
+rank 90, epoch 1, step 13000 / 14900, train loss 45.68, time 2h 9m 10s
+rank 60, epoch 1, step 13000 / 14900, train loss 67.49, time 2h 9m 10s
+rank 55, epoch 1, step 13000 / 14900, train loss 94.54, time 2h 9m 14s
+rank 53, epoch 1, step 12000 / 14900, train loss 57.62, time 2h 9m 11s
+rank 5, epoch 1, step 13000 / 14900, train loss 62.53, time 2h 9m 37s
+rank 32, epoch 1, step 11000 / 14900, train loss 44.97, time 2h 9m 45s
+rank 33, epoch 1, step 13000 / 14900, train loss 63.11, time 2h 9m 46s
+rank 84, epoch 1, step 13000 / 14900, train loss 69.69, time 2h 9m 55s
+rank 51, epoch 1, step 13000 / 14900, train loss 94.08, time 2h 9m 58s
+rank 57, epoch 1, step 13000 / 14900, train loss 44.69, time 2h 9m 59s
+rank 94, epoch 1, step 13000 / 14900, train loss 113.60, time 2h 9m 58s
+rank 15, epoch 1, step 13000 / 14900, train loss 99.65, time 2h 10m 9s
+rank 76, epoch 1, step 13000 / 14900, train loss 38.52, time 2h 10m 17s
+rank 47, epoch 1, step 13000 / 14900, train loss 98.18, time 2h 10m 31s
+rank 31, epoch 1, step 13000 / 14900, train loss 47.50, time 2h 10m 32s
+rank 38, epoch 1, step 13000 / 14900, train loss 104.13, time 2h 10m 39s
+rank 21, epoch 1, step 13000 / 14900, train loss 44.13, time 2h 10m 57s
+rank 12, epoch 1, step 13000 / 14900, train loss 83.84, time 2h 10m 60s
+rank 50, epoch 1, step 13000 / 14900, train loss 42.60, time 2h 11m 4s
+rank 22, epoch 1, step 13000 / 14900, train loss 98.23, time 2h 11m 7s
+rank 70, epoch 1, step 13000 / 14900, train loss 51.51, time 2h 11m 33s
+rank 35, epoch 1, step 13000 / 14900, train loss 44.64, time 2h 11m 55s
+rank 62, epoch 1, step 12000 / 14900, train loss 48.84, time 2h 12m 2s
+rank 79, epoch 1, step 13000 / 14900, train loss 86.31, time 2h 12m 14s
+rank 48, epoch 1, step 13000 / 14900, train loss 109.09, time 2h 12m 25s
+rank 93, epoch 1, step 12000 / 14900, train loss 97.90, time 2h 12m 32s
+rank 44, epoch 1, step 11000 / 14900, train loss 183.79, time 2h 12m 51s
+rank 59, epoch 1, step 13000 / 14900, train loss 75.07, time 2h 13m 15s
+rank 30, epoch 1, step 14000 / 14900, train loss 63.66, time 2h 14m 2s
+rank 89, epoch 1, step 8000 / 14900, train loss 47.88, time 2h 14m 20s
+rank 7, epoch 1, step 8000 / 14900, train loss 80.38, time 2h 14m 39s
+rank 3, epoch 1, step 8000 / 14900, train loss 103.68, time 2h 14m 41s
+rank 64, epoch 1, step 13000 / 14900, train loss 59.20, time 2h 15m 11s
+rank 2, epoch 1, step 14000 / 14900, train loss 70.63, time 2h 15m 17s
+rank 95, epoch 1, step 14000 / 14900, train loss 40.11, time 2h 15m 22s
+rank 4, epoch 1, step 14000 / 14900, train loss 133.26, time 2h 15m 23s
+rank 68, epoch 1, step 11000 / 14900, train loss 177.53, time 2h 15m 27s
+rank 74, epoch 1, step 9000 / 14900, train loss 88.82, time 2h 15m 27s
+rank 88, epoch 1, step 10000 / 14900, train loss 93.30, time 2h 15m 37s
+rank 67, epoch 1, step 9000 / 14900, train loss 81.70, time 2h 15m 35s
+rank 0, epoch 1, step 14000 / 14900, train loss 48.37, time 2h 15m 42s
+rank 81, epoch 1, step 9000 / 14900, train loss 58.59, time 2h 15m 50s
+rank 78, epoch 1, step 9000 / 14900, train loss 89.00, time 2h 15m 58s
+rank 86, epoch 1, step 9000 / 14900, train loss 74.82, time 2h 16m 5s
+rank 46, epoch 1, step 14000 / 14900, train loss 91.41, time 2h 16m 29s
+rank 41, epoch 1, step 9000 / 14900, train loss 65.25, time 2h 16m 39s
+rank 54, epoch 1, step 9000 / 14900, train loss 93.63, time 2h 16m 56s
+rank 6, epoch 1, step 14000 / 14900, train loss 147.27, time 2h 17m 11s
+rank 85, epoch 1, step 14000 / 14900, train loss 184.00, time 2h 17m 17s
+rank 1, epoch 1, step 9000 / 14900, train loss 70.73, time 2h 17m 18s
+rank 56, epoch 1, step 14000 / 14900, train loss 78.45, time 2h 17m 40s
+rank 73, epoch 1, step 9000 / 14900, train loss 39.54, time 2h 17m 40s
+rank 69, epoch 1, step 14000 / 14900, train loss 66.62, time 2h 18m 2s
+rank 26, epoch 1, step 10000 / 14900, train loss 91.08, time 2h 18m 4s
+rank 92, epoch 1, step 14000 / 14900, train loss 76.03, time 2h 18m 12s
+rank 11, epoch 1, step 14000 / 14900, train loss 56.14, time 2h 18m 23s
+rank 14, epoch 1, step 14000 / 14900, train loss 42.92, time 2h 18m 31s
+rank 9, epoch 1, step 14000 / 14900, train loss 119.55, time 2h 18m 38s
+rank 71, epoch 1, step 9000 / 14900, train loss 52.33, time 2h 18m 36s
+rank 34, epoch 1, step 14000 / 14900, train loss 44.20, time 2h 18m 39s
+rank 43, epoch 1, step 14000 / 14900, train loss 79.94, time 2h 18m 42s
+rank 28, epoch 1, step 9000 / 14900, train loss 128.89, time 2h 18m 41s
+rank 65, epoch 1, step 8000 / 14900, train loss 60.43, time 2h 18m 41s
+rank 77, epoch 1, step 9000 / 14900, train loss 76.47, time 2h 18m 48s
+rank 66, epoch 1, step 14000 / 14900, train loss 157.90, time 2h 18m 52s
+rank 72, epoch 1, step 8000 / 14900, train loss 99.05, time 2h 18m 50s
+rank 16, epoch 1, step 14000 / 14900, train loss 80.00, time 2h 18m 54s
+rank 13, epoch 1, step 10000 / 14900, train loss 59.78, time 2h 18m 54s
+rank 75, epoch 1, step 14000 / 14900, train loss 43.25, time 2h 18m 58s
+rank 5, epoch 1, step 14000 / 14900, train loss 188.76, time 2h 19m 7s
+rank 60, epoch 1, step 14000 / 14900, train loss 65.18, time 2h 19m 10s
+rank 55, epoch 1, step 14000 / 14900, train loss 122.34, time 2h 19m 17s
+rank 90, epoch 1, step 14000 / 14900, train loss 36.46, time 2h 19m 19s
+rank 37, epoch 1, step 9000 / 14900, train loss 74.92, time 2h 19m 23s
+rank 53, epoch 1, step 13000 / 14900, train loss 72.10, time 2h 19m 25s
+rank 24, epoch 1, step 9000 / 14900, train loss 57.62, time 2h 19m 39s
+rank 8, epoch 1, step 9000 / 14900, train loss 19513.01, time 2h 19m 45s
+rank 32, epoch 1, step 12000 / 14900, train loss 78.85, time 2h 19m 53s
+rank 33, epoch 1, step 14000 / 14900, train loss 57.17, time 2h 19m 57s
+rank 57, epoch 1, step 14000 / 14900, train loss 78.71, time 2h 20m 2s
+rank 15, epoch 1, step 14000 / 14900, train loss 98.15, time 2h 20m 6s
+rank 84, epoch 1, step 14000 / 14900, train loss 46.11, time 2h 20m 7s
+rank 51, epoch 1, step 14000 / 14900, train loss 77.57, time 2h 20m 7s
+rank 17, epoch 1, step 9000 / 14900, train loss 55.29, time 2h 20m 9s
+rank 23, epoch 1, step 9000 / 14900, train loss 121.24, time 2h 20m 14s
+rank 10, epoch 1, step 9000 / 14900, train loss 66.90, time 2h 20m 14s
+rank 83, epoch 1, step 8000 / 14900, train loss 65.89, time 2h 20m 15s
+rank 76, epoch 1, step 14000 / 14900, train loss 68.20, time 2h 20m 21s
+rank 47, epoch 1, step 14000 / 14900, train loss 58.29, time 2h 20m 35s
+rank 31, epoch 1, step 14000 / 14900, train loss 90.00, time 2h 20m 38s
+rank 91, epoch 1, step 9000 / 14900, train loss 58.64, time 2h 20m 37s
+rank 38, epoch 1, step 14000 / 14900, train loss 65.89, time 2h 20m 41s
+rank 52, epoch 1, step 9000 / 14900, train loss 61.32, time 2h 20m 41s
+rank 19, epoch 1, step 9000 / 14900, train loss 147.51, time 2h 20m 42s
+rank 20, epoch 1, step 9000 / 14900, train loss 51.93, time 2h 20m 57s
+rank 25, epoch 1, step 9000 / 14900, train loss 57.65, time 2h 20m 56s
+rank 50, epoch 1, step 14000 / 14900, train loss 35.71, time 2h 21m 7s
+rank 21, epoch 1, step 14000 / 14900, train loss 65.47, time 2h 21m 12s
+rank 12, epoch 1, step 14000 / 14900, train loss 122.92, time 2h 21m 14s
+rank 58, epoch 1, step 9000 / 14900, train loss 97.84, time 2h 21m 12s
+rank 45, epoch 1, step 9000 / 14900, train loss 70.22, time 2h 21m 16s
+rank 22, epoch 1, step 14000 / 14900, train loss 74.41, time 2h 21m 21s
+rank 63, epoch 1, step 9000 / 14900, train loss 70.35, time 2h 21m 22s
+rank 40, epoch 1, step 9000 / 14900, train loss 75.86, time 2h 21m 21s
+rank 49, epoch 1, step 11000 / 14900, train loss 98.42, time 2h 21m 33s
+rank 35, epoch 1, step 14000 / 14900, train loss 66.87, time 2h 22m 2s
+rank 39, epoch 1, step 9000 / 14900, train loss 97.28, time 2h 22m 12s
+rank 48, epoch 1, step 14000 / 14900, train loss 64.87, time 2h 22m 32s
+rank 30, epoch 1, step 14900 / 14900, train loss 84.43, time 2h 22m 33s, done.
+rank 79, epoch 1, step 14000 / 14900, train loss 55.16, time 2h 22m 36s
+rank 82, epoch 1, step 9000 / 14900, train loss 41.94, time 2h 22m 34s
+rank 18, epoch 1, step 9000 / 14900, train loss 73.82, time 2h 22m 44s
+rank 87, epoch 1, step 9000 / 14900, train loss 117.76, time 2h 22m 47s
+rank 93, epoch 1, step 13000 / 14900, train loss 101.23, time 2h 22m 47s
+rank 44, epoch 1, step 12000 / 14900, train loss 70.94, time 2h 22m 50s
+rank 29, epoch 1, step 9000 / 14900, train loss 85.43, time 2h 23m 16s
+rank 36, epoch 1, step 9000 / 14900, train loss 98.54, time 2h 23m 20s
+rank 42, epoch 1, step 9000 / 14900, train loss 166.14, time 2h 23m 20s
+rank 27, epoch 1, step 9000 / 14900, train loss 43.33, time 2h 23m 27s
+rank 59, epoch 1, step 14000 / 14900, train loss 47.29, time 2h 23m 28s
+rank 2, epoch 1, step 14900 / 14900, train loss 92.92, time 2h 23m 33s, done.
+rank 4, epoch 1, step 14900 / 14900, train loss 101.61, time 2h 23m 38s, done.
+rank 80, epoch 1, step 9000 / 14900, train loss 77.10, time 2h 23m 39s
+rank 61, epoch 1, step 9000 / 14900, train loss 116.67, time 2h 23m 53s
+rank 95, epoch 1, step 14900 / 14900, train loss 69.43, time 2h 24m 3s, done.
+rank 46, epoch 1, step 14900 / 14900, train loss 111.09, time 2h 25m 10s, done.
+rank 89, epoch 1, step 9000 / 14900, train loss 55.86, time 2h 25m 22s
+rank 6, epoch 1, step 14900 / 14900, train loss 73.98, time 2h 25m 26s, done.
+rank 88, epoch 1, step 11000 / 14900, train loss 45.49, time 2h 25m 32s
+rank 64, epoch 1, step 14000 / 14900, train loss 61.67, time 2h 25m 39s
+rank 94, epoch 1, step 14000 / 14900, train loss 46.43, time 2h 25m 40s
+rank 56, epoch 1, step 14900 / 14900, train loss 55.83, time 2h 26m 16s, done.
+rank 0, epoch 1, step 14900 / 14900, train loss 50.13, time 2h 26m 34s, done.
+rank 69, epoch 1, step 14900 / 14900, train loss 45.71, time 2h 26m 48s, done.
+rank 9, epoch 1, step 14900 / 14900, train loss 120.83, time 2h 26m 50s, done.
+rank 62, epoch 1, step 13000 / 14900, train loss 37.92, time 2h 26m 55s
+rank 70, epoch 1, step 14000 / 14900, train loss 54.99, time 2h 26m 58s
+rank 92, epoch 1, step 14900 / 14900, train loss 181.12, time 2h 26m 59s, done.
+rank 11, epoch 1, step 14900 / 14900, train loss 65.12, time 2h 27m 11s, done.
+rank 43, epoch 1, step 14900 / 14900, train loss 96.57, time 2h 27m 21s, done.
+rank 34, epoch 1, step 14900 / 14900, train loss 120.37, time 2h 27m 23s, done.
+rank 14, epoch 1, step 14900 / 14900, train loss 91.16, time 2h 27m 27s, done.
+rank 5, epoch 1, step 14900 / 14900, train loss 152.20, time 2h 27m 33s, done.
+rank 16, epoch 1, step 14900 / 14900, train loss 76.03, time 2h 27m 35s, done.
+rank 66, epoch 1, step 14900 / 14900, train loss 70.27, time 2h 27m 38s, done.
+rank 75, epoch 1, step 14900 / 14900, train loss 57.60, time 2h 27m 52s, done.
+rank 55, epoch 1, step 14900 / 14900, train loss 139.06, time 2h 28m 2s, done.
+rank 74, epoch 1, step 10000 / 14900, train loss 60.40, time 2h 28m 0s
+rank 90, epoch 1, step 14900 / 14900, train loss 45.11, time 2h 28m 4s, done.
+rank 26, epoch 1, step 11000 / 14900, train loss 102.77, time 2h 28m 2s
+rank 60, epoch 1, step 14900 / 14900, train loss 40.07, time 2h 28m 8s, done.
+rank 81, epoch 1, step 10000 / 14900, train loss 109.10, time 2h 28m 13s
+rank 3, epoch 1, step 9000 / 14900, train loss 109.63, time 2h 28m 21s
+rank 33, epoch 1, step 14900 / 14900, train loss 129.72, time 2h 28m 33s, done.
+rank 78, epoch 1, step 10000 / 14900, train loss 72.85, time 2h 28m 43s
+rank 51, epoch 1, step 14900 / 14900, train loss 48.34, time 2h 28m 53s, done.
+rank 57, epoch 1, step 14900 / 14900, train loss 68.31, time 2h 28m 53s, done.
+rank 54, epoch 1, step 10000 / 14900, train loss 124.73, time 2h 29m 7s
+rank 76, epoch 1, step 14900 / 14900, train loss 36.10, time 2h 29m 3s, done.
+rank 84, epoch 1, step 14900 / 14900, train loss 51.64, time 2h 29m 8s, done.
+rank 7, epoch 1, step 9000 / 14900, train loss 99.90, time 2h 29m 6s
+rank 47, epoch 1, step 14900 / 14900, train loss 69.29, time 2h 29m 15s, done.
+rank 53, epoch 1, step 14000 / 14900, train loss 91.07, time 2h 29m 12s
+rank 67, epoch 1, step 10000 / 14900, train loss 38.65, time 2h 29m 15s
+rank 85, epoch 1, step 14900 / 14900, train loss 422.94, time 2h 29m 18s, done.
+rank 31, epoch 1, step 14900 / 14900, train loss 64.51, time 2h 29m 21s, done.
+rank 38, epoch 1, step 14900 / 14900, train loss 73.41, time 2h 29m 25s, done.
+rank 86, epoch 1, step 10000 / 14900, train loss 80.93, time 2h 29m 24s
+rank 68, epoch 1, step 12000 / 14900, train loss 135.60, time 2h 29m 39s
+rank 13, epoch 1, step 11000 / 14900, train loss 64.40, time 2h 29m 43s
+rank 50, epoch 1, step 14900 / 14900, train loss 77.73, time 2h 29m 46s, done.
+rank 32, epoch 1, step 13000 / 14900, train loss 53.63, time 2h 29m 49s
+rank 21, epoch 1, step 14900 / 14900, train loss 27.18, time 2h 29m 52s, done.
+rank 12, epoch 1, step 14900 / 14900, train loss 93.93, time 2h 30m 5s, done.
+rank 22, epoch 1, step 14900 / 14900, train loss 61.02, time 2h 30m 7s, done.
+rank 41, epoch 1, step 10000 / 14900, train loss 79.72, time 2h 30m 8s
+rank 91, epoch 1, step 10000 / 14900, train loss 70.11, time 2h 30m 8s
+rank 1, epoch 1, step 10000 / 14900, train loss 75.25, time 2h 30m 11s
+rank 73, epoch 1, step 10000 / 14900, train loss 42.26, time 2h 30m 15s
+rank 20, epoch 1, step 10000 / 14900, train loss 74.14, time 2h 30m 26s
+rank 72, epoch 1, step 9000 / 14900, train loss 107.74, time 2h 30m 36s
+rank 35, epoch 1, step 14900 / 14900, train loss 92.31, time 2h 30m 47s, done.
+rank 83, epoch 1, step 9000 / 14900, train loss 49.65, time 2h 30m 43s
+rank 8, epoch 1, step 10000 / 14900, train loss 2121.01, time 2h 30m 47s
+rank 37, epoch 1, step 10000 / 14900, train loss 52.95, time 2h 30m 51s
+rank 77, epoch 1, step 10000 / 14900, train loss 87.60, time 2h 30m 54s
+rank 48, epoch 1, step 14900 / 14900, train loss 91.67, time 2h 31m 1s, done.
+rank 15, epoch 1, step 14900 / 14900, train loss 58.70, time 2h 31m 3s, done.
+rank 79, epoch 1, step 14900 / 14900, train loss 121.52, time 2h 31m 4s, done.

@@ -143,18 +143,18 @@ def main(download_file):
     random.shuffle(unique_smi)
 
     # training samples
-    tr_smiles = unique_smi[:-100000]
-    val_smiles = unique_smi[-100000:]
-    print('After shuffle, training {}, validating {}'.format(len(tr_smiles), len(val_smiles)))
+    # tr_smiles = unique_smi[:-100000]
+    # val_smiles = unique_smi[-100000:]
+    # print('After shuffle, training {}, validating {}'.format(len(tr_smiles), len(val_smiles)))
 
     # write
-    with open('chembl_2023-12-12_train.txt', 'w') as f:
-        for s in tr_smiles:
-            f.write(s + '\n')
+    # with open('chembl_2023-12-12_train.txt', 'w') as f:
+    #     for s in tr_smiles:
+    #         f.write(s + '\n')
     
-    with open('chembl_2023-12-12_valid.txt', 'w') as f:
-        for s in val_smiles:
-            f.write(s + '\n')
+    # with open('chembl_2023-12-12_valid.txt', 'w') as f:
+    #     for s in val_smiles:
+    #         f.write(s + '\n')
     
     with open('chembl_2023-12-12_unique.txt', 'w') as f:
         for s in unique_smi:
