@@ -6,5 +6,9 @@ dgl_lifesci_examples/property_prediction/data/*
 
 dgl_lifesci_examples/generative_models/chembl/download_allcompds_1920643.tsv
 dgl_lifesci_examples/generative_models/.ipynb_checkpoints/*
+
 dgl_lifesci_examples/generative_models/chembl/canonical/*
+!dgl_lifesci_examples/generative_models/chembl/canonical/*.pth
+!dgl_lifesci_examples/generative_models/chembl/canonical/val_loss.dat
+
 dgl_lifesci_examples/generative_models/debug/*
