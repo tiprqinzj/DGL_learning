@@ -11,4 +11,8 @@ dgl_lifesci_examples/generative_models/chembl/canonical/*
 !dgl_lifesci_examples/generative_models/chembl/canonical/*.pth
 !dgl_lifesci_examples/generative_models/chembl/canonical/val_loss.dat
 
+dgl_lifesci_examples/generative_models/chembl/canonical2_2023-12-18/*
+!dgl_lifesci_examples/generative_models/chembl/canonical2_2023-12-18/*.pth
+!dgl_lifesci_examples/generative_models/chembl/canonical2_2023-12-18/val_loss.dat
+
 dgl_lifesci_examples/generative_models/debug/*

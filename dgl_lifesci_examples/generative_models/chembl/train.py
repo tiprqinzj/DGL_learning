@@ -218,6 +218,9 @@ def main(rank, args):
         print('Start training:')
     t = time.time()
 
+    # initialize steps
+    curr_step = 0
+
     # training
     for epoch in range(args['epochs']):
 
@@ -225,6 +228,9 @@ def main(rank, args):
         tr_loss = []
 
         for step, data in enumerate(tr_loader):
+            # record step
+            curr_step += 1
+
             log_prob = model(actions=data, compute_log_prob=True)
             # prob = log_prob.detach().exp()
 
@@ -249,11 +255,21 @@ def main(rank, args):
                     rank, epoch+1, step+1, len(tr_loader), tr_avg_loss, cal_time(t)))
                 
                 # save training loss and empty the list
-                with open('{}/rank{}_train_loss.dat'.format(args['save_prefix'], rank), 'a') as f:
-                    for l in tr_loss:
-                        f.write('{:.2f}\n'.format(l))
+                # with open('{}/rank{}_train_loss.dat'.format(args['save_prefix'], rank), 'a') as f:
+                #     for l in tr_loss:
+                #         f.write('{:.2f}\n'.format(l))
                 
                 tr_loss = []
+            
+            # decay lr every 1000 steps
+            if curr_step % 1000 == 0:
+                optimizer.decay_lr()
+
+                # record in log file
+                if rank == 0:
+                    with open('{}/{}'.format(args['save_prefix'], args['log_file']), 'a') as f:
+                        f.write('Decay learning rate: epoch {}, step {}, current lr {:.10f}\n'.format(
+                            epoch+1, step+1, optimizer.lr))
 
 
         if rank == 0:
@@ -265,9 +281,9 @@ def main(rank, args):
             rank, epoch+1, step+1, len(tr_loader), np.mean(tr_loss), cal_time(t)))
         
         # save training loss and empty the list
-        with open('{}/rank{}_train_loss.dat'.format(args['save_prefix'], rank), 'a') as f:
-            for l in tr_loss:
-                f.write('{:.2f}\n'.format(l))
+        # with open('{}/rank{}_train_loss.dat'.format(args['save_prefix'], rank), 'a') as f:
+        #     for l in tr_loss:
+        #         f.write('{:.2f}\n'.format(l))
         
         synchronize(args['num_processes'])
 
@@ -296,7 +312,7 @@ def main(rank, args):
             torch.save({'model_state_dict': model.state_dict()},
                         '{}/save_epoch{}.pth'.format(args['save_prefix'], epoch+1))
         
-        optimizer.decay_lr()
+        # optimizer.decay_lr()
         synchronize(args['num_processes'])
 
 
