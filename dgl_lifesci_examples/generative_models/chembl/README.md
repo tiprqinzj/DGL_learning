@@ -38,3 +38,5 @@
 
 需注意，nohup 后，即使 kill 掉 train.py 的进程，并行依然在运算，因此需要 ps -ef | grep spawn | cut -c 9-16 后获取全部 PID，在 NotePad++ 中将回车替换为空格，再 kill -9 PASTE 来彻底清空后台的进程，才可以继续提交后续计算任务。
 
+**停止训练**：2023.12.18 8:00 am: 经过一个周末的训练后，valid set 损失出现 nan，训练集的 rank 14 出现 nan，该模型出现问题，终止训练。
+
