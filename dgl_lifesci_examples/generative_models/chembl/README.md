@@ -148,3 +148,9 @@ Passed mols 1509741, filtered mols 20659
 将 **chembl_2023-12-18_dgmg.txt** 的后 10 万个分子拆分为验证集，其余为训练集，存于 **chembl_2023-12-18_dgmg_train.txt** 和 **chembl_2023-12-18_dgmg_val.txt**
 
 训练脚本存副本 **train_backup2023-12-18.py**，修改原脚本，将原来每 epoch 后衰减学习率，改为每 1000 steps 后衰减学习率；修改，每个 rank 的 training loss 不再保存。
+
+
+```
+nohup python train.py --tr_file chembl_2023-12-18_dgmg_train.txt --val_file chembl_2023-12-18_dgmg_val.txt --log_file train.log --order canonical --save_prefix canonical2_2023-12-18 > nohup_train_2023-12-18_1530pm.log 2>&1 &
+```
+
