@@ -154,6 +154,8 @@ Passed mols 1509741, filtered mols 20659
 nohup python train.py --tr_file chembl_2023-12-18_dgmg_train.txt --val_file chembl_2023-12-18_dgmg_val.txt --log_file train.log --order canonical --save_prefix canonical2_2023-12-18 > nohup_train_2023-12-18_1530pm.log 2>&1 &
 ```
 
+当运行完成 29 轮后，验证集的损失已基本收敛（约 40），此时学习率已衰减至 1e-6 以下，因此手动停掉训练。
+
 ## 修改训练思路 2023.12.21
 
 已训练20轮，使用20轮后的模型生成500分子，valid 59.4%，平均loss为39.82。计划在下周一（12.25）再次训练一组模型，预计下周一在不崩溃的情况下可以训练50轮，到时学习率只有8e-8，也就是初始1e-4的千分之一不到，已经基本不调整权重了。预计50轮后验证集的损失也会在40左右，相对还是比较高。
@@ -167,3 +169,19 @@ nohup python train.py --tr_file chembl_2023-12-18_dgmg_train.txt --val_file chem
 创建 **train.py** 的副本 **train_update1.py**，在其中更改代码：
 - 没有想到特别好的解决方案，于是决定提前shuffle好50轮的数据，存50个训练集smiles文件
 - 准备脚本 **shuffle_train_file.py**，创建文件夹 **canonical3_2023-12-21**，将 **chembl_2023-12-18_dgmg_train.txt** 作为输入，输出50个文件 **canonical3_2023-12-21/train_for_epochX.txt (X = 1 ~ 50)**
+
+```
+nohup python train_update1.py --tr_file_prefix canonical3_2023-12-21/train --val_file chembl_2023-12-18_dgmg_val.txt --log_file train.log --order canonical --save_prefix canonical3_2023-12-21 > nohup_train_2023-12-22_1020am.log 2>&1 &
+```
+
+但在这次训练中，第一轮出现了上百万甚至千万损失的rank，需继续观察是否会对后续epoch产生影响。
+
+## 发现严重训练错误（2023.12.22）
+
+暂时终止 canonical3 的训练，创建 **canonical4_2023-12-22**
+
+
+
+```
+nohup python train.py --tr_file chembl_2023-12-18_dgmg_train.txt --val_file chembl_2023-12-18_dgmg_val.txt --log_file train.log --order canonical --save_prefix canonical4_2023-12-22 > nohup_train_2023-12-22_1345pm.log 2>&1 &
+```

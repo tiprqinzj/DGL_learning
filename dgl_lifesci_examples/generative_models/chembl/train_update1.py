@@ -148,6 +148,13 @@ class MultiProcessOptimizer(Optimizer):
                     dist.all_reduce(p.grad.data, op=dist.ReduceOp.SUM)
                     p.grad.data /= self.n_processes
 
+    def backward_and_step(self, loss):
+        loss.backward()
+        self._sync_gradient()
+        self.optimizer.step()
+        self._reset()
+
+
 def synchronize(num_processes):
     if num_processes > 1:
         dist.barrier()
@@ -184,10 +191,16 @@ def main(rank, args):
     if rank == 0:
         with open('{}/{}'.format(args['save_prefix'], args['log_file']), 'w') as f:
             pass
+    
+    # constant
+    atom_types = ['C', 'N', 'O', 'S', 'F', 'Cl', 'Br']
+    bond_types = [Chem.rdchem.BondType.SINGLE,
+                  Chem.rdchem.BondType.DOUBLE,
+                  Chem.rdchem.BondType.TRIPLE]
 
     # initialize model
-    model = DGMG(atom_types = dataset.atom_types,
-                 bond_types = dataset.bond_types,
+    model = DGMG(atom_types = atom_types,
+                 bond_types = bond_types,
                  node_hidden_size = args['node_hidden_size'],
                  num_prop_rounds = args['num_propagation_rounds'],
                  dropout = args['dropout'])
@@ -215,8 +228,8 @@ def main(rank, args):
         dataset = MoleculeDataset(tr_file, args['val_file'], order=args['order'],
                                   subset_id=rank, n_subsets=args['num_processes'])
 
-        tr_loader = DataLoader(dataset.train_set, batch_size=1, shuffle=False, collate_fn=dataset.collate)
-        val_loader = DataLoader(dataset.val_set, batch_size=1, shuffle=False, collate_fn=dataset.collate)
+        tr_loader = DataLoader(dataset.train_set, batch_size=1, shuffle=True, collate_fn=dataset.collate)
+        val_loader = DataLoader(dataset.val_set, batch_size=1, shuffle=True, collate_fn=dataset.collate)
 
 
         model.train()
@@ -248,8 +261,8 @@ def main(rank, args):
                 
                 tr_loss = []
             
-            # decay lr every 1000 steps
-            if curr_step % 1000 == 0:
+            # decay lr every 1500 steps
+            if curr_step % 1500 == 0:
                 optimizer.decay_lr()
 
                 # record in log file

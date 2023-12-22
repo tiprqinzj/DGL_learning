@@ -19,4 +19,10 @@ dgl_lifesci_examples/generative_models/chembl/canonical3_2023-12-21/*
 !dgl_lifesci_examples/generative_models/chembl/canonical3_2023-12-21/*.pth
 !dgl_lifesci_examples/generative_models/chembl/canonical3_2023-12-21/val_loss.dat
 
+dgl_lifesci_examples/generative_models/chembl/canonical4_2023-12-22/*
+!dgl_lifesci_examples/generative_models/chembl/canonical4_2023-12-22/*.pth
+!dgl_lifesci_examples/generative_models/chembl/canonical4_2023-12-22/val_loss.dat
+!dgl_lifesci_examples/generative_models/chembl/canonical4_2023-12-22/training_loss_summary.dat
+!dgl_lifesci_examples/generative_models/chembl/canonical4_2023-12-22/training_loss.png
+
 dgl_lifesci_examples/generative_models/debug/*

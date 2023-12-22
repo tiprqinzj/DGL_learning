@@ -147,6 +147,13 @@ class MultiProcessOptimizer(Optimizer):
                 if p.requires_grad and p.grad is not None:
                     dist.all_reduce(p.grad.data, op=dist.ReduceOp.SUM)
                     p.grad.data /= self.n_processes
+    
+    def backward_and_step(self, loss):
+        loss.backward()
+        self._sync_gradient()
+        self.optimizer.step()
+        self._reset()
+
 
 def synchronize(num_processes):
     if num_processes > 1:
@@ -255,14 +262,14 @@ def main(rank, args):
                     rank, epoch+1, step+1, len(tr_loader), tr_avg_loss, cal_time(t)))
                 
                 # save training loss and empty the list
-                # with open('{}/rank{}_train_loss.dat'.format(args['save_prefix'], rank), 'a') as f:
-                #     for l in tr_loss:
-                #         f.write('{:.2f}\n'.format(l))
+                with open('{}/rank{}_train_loss.dat'.format(args['save_prefix'], rank), 'a') as f:
+                    for l in tr_loss:
+                        f.write('{:.2f}\n'.format(l))
                 
                 tr_loss = []
             
-            # decay lr every 1000 steps
-            if curr_step % 1000 == 0:
+            # decay lr every 1500 steps
+            if curr_step % 1500 == 0:
                 optimizer.decay_lr()
 
                 # record in log file
@@ -281,9 +288,9 @@ def main(rank, args):
             rank, epoch+1, step+1, len(tr_loader), np.mean(tr_loss), cal_time(t)))
         
         # save training loss and empty the list
-        # with open('{}/rank{}_train_loss.dat'.format(args['save_prefix'], rank), 'a') as f:
-        #     for l in tr_loss:
-        #         f.write('{:.2f}\n'.format(l))
+        with open('{}/rank{}_train_loss.dat'.format(args['save_prefix'], rank), 'a') as f:
+            for l in tr_loss:
+                f.write('{:.2f}\n'.format(l))
         
         synchronize(args['num_processes'])
 
