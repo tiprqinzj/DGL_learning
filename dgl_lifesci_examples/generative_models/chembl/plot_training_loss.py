@@ -32,15 +32,17 @@ if __name__ == '__main__':
     avg_loss = 0
     for step, loss in enumerate(losses):
         avg_loss += loss
-        if (step + 1) % 500 == 0:
-            print('steps {}, avg loss = {:.2f}'.format(step+1, avg_loss / 500))
+        if (step + 1) % 10000 == 0:
+            print('steps {}, avg loss = {:.2f}'.format(step+1, avg_loss / 10000))
             avg_loss = 0
+    
+    print('steps {}, avg loss = {:.2f}'.format(step+1, avg_loss / ((step + 1) % 10000)))
 
 
     fig, ax = plt.subplots()
 
     ax.plot(losses)
-    ax.set_ylim([0, 150])
+    ax.set_ylim([-5, 105])
 
     plt.savefig('canonical4_2023-12-22/training_loss.png', dpi=300, bbox_inches='tight')
 

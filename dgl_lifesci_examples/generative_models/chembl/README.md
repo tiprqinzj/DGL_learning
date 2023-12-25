@@ -180,8 +180,12 @@ nohup python train_update1.py --tr_file_prefix canonical3_2023-12-21/train --val
 
 暂时终止 canonical3 的训练，创建 **canonical4_2023-12-22**
 
-
+对脚本 **train.py** 浏览时，发现分布式计算过程的优化器代码中，竟然没有合并梯度！！！也就是虽然我表面上分成100组平行计算，但每次这100个计算完成后，只采纳了第1个rank的梯度进行模型参数调整！重新调整脚本后，执行以下代码运行。
 
 ```
 nohup python train.py --tr_file chembl_2023-12-18_dgmg_train.txt --val_file chembl_2023-12-18_dgmg_val.txt --log_file train.log --order canonical --save_prefix canonical4_2023-12-22 > nohup_train_2023-12-22_1345pm.log 2>&1 &
 ```
+
+运行后，每次 step，100 个损失值是同时写到 log 中的，这次对了（以前不同时写 log，没想通分布式的思路，这下子都明白了）。可以理解为，分布式的 num_processes，就是其它网络的 batch_size，只是 DGMG 模型自身的特性只能设置 batch_size 为 1，用分布式来模拟批次训练。
+
+**2023.12.25 13:00pm 停止训练**，由于并行数量过高，导致机器温度报警，后续预计使用 64 或 32 核进行计算。停止时已完成 10 轮的计算，可以考虑断点续算，即读取10轮训练后的模型，更改成并行 64 后继续训练，而无需从头重新训练。
