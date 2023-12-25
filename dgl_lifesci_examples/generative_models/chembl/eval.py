@@ -87,9 +87,9 @@ if __name__ == '__main__':
 
     args = {
         'seed': 42,
-        'model_path': 'canonical2_2023-12-18/save_epoch20.pth',
-        'out_file': 'canonical2_2023-12-18/samples_epoch20_seed42.smi',
-        'num_mols': 500,
+        'model_path': 'canonical4_2023-12-22/save_epoch9.pth',
+        'out_file': 'canonical4_2023-12-22/samples_epoch9_seed42_100mols.smi',
+        'num_mols': 100,
     }
 
     main(args)
