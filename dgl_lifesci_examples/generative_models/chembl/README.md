@@ -188,4 +188,15 @@ nohup python train.py --tr_file chembl_2023-12-18_dgmg_train.txt --val_file chem
 
 运行后，每次 step，100 个损失值是同时写到 log 中的，这次对了（以前不同时写 log，没想通分布式的思路，这下子都明白了）。可以理解为，分布式的 num_processes，就是其它网络的 batch_size，只是 DGMG 模型自身的特性只能设置 batch_size 为 1，用分布式来模拟批次训练。
 
-**2023.12.25 13:00pm 停止训练**，由于并行数量过高，导致机器温度报警，后续预计使用 64 或 32 核进行计算。停止时已完成 10 轮的计算，可以考虑断点续算，即读取10轮训练后的模型，更改成并行 64 后继续训练，而无需从头重新训练。
+**2023.12.25 13:00pm 停止训练**，由于并行数量过高，导致机器温度报警，后续预计使用 64 或 32 核进行计算。停止时已完成 10 轮的计算，可以考虑断点续算，即读取10轮训练后的模型，更改成并行 32 后继续训练，而无需从头重新训练。
+
+## 从之前训练10轮后的模型继续训练（2023.12.28）
+
+创建 **train.py** 的副本，命名为 **train_for_continue.py**，在后者中更改。
+
+创建文件夹 **canonical5_2023-12-28**，接续训练的数据都存在此处。学习率在上次训练的第 10 轮，12627 步为 0.0000392711。本次以 0.00004 为起始，由于从并行 100 减少至并行 32，相当于降低 3 倍多，因此调整原每 1500 步衰减学习率为每 5000 步。
+
+```
+nohup python train_for_continue.py --tr_file chembl_2023-12-18_dgmg_train.txt --val_file chembl_2023-12-18_dgmg_val.txt --log_file train.log --order canonical --pre_model_path canonical4_2023-12-22/save_epoch10.pth --pre_epochs 10 --lr 0.00004 --save_prefix canonical5_2023-12-28 > nohup_train_2023-12-28_1500pm.log 2>&1 &
+```
+
