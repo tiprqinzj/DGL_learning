@@ -200,3 +200,7 @@ nohup python train.py --tr_file chembl_2023-12-18_dgmg_train.txt --val_file chem
 nohup python train_for_continue.py --tr_file chembl_2023-12-18_dgmg_train.txt --val_file chembl_2023-12-18_dgmg_val.txt --log_file train.log --order canonical --pre_model_path canonical4_2023-12-22/save_epoch10.pth --pre_epochs 10 --lr 0.00004 --save_prefix canonical5_2023-12-28 > nohup_train_2023-12-28_1500pm.log 2>&1 &
 ```
 
+2024.01.02 上班后，得知训练到 20 轮，损失仅降低了一点（从 33 降至 32），考虑继续训练 10 轮，如果依然没有明显变化，则之后重新训练，学习率衰减再慢一些。想到之前出现梯度爆炸的情况，可能是由于没有将并行任务合并，仅通过 rank 0 的一万多个分子调整权重，自然无法遍历全部的百万分子。
+
+使用训练 20 轮之后的模型，评价源码中的验证集分子。准备 **cal_loss_for_compds.py**，并未计算，因为之前的任务还在训练 master port 等不清楚如何定义。
+
